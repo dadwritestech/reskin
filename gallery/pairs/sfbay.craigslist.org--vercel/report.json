@@ -1,0 +1,835 @@
+{
+ "url": "https://sfbay.craigslist.org/",
+ "finalUrl": "https://www.craigslist.org/area/sfbay",
+ "title": "craigslist: SF bay area jobs, apartments, for sale, services, community, and events",
+ "style": "vercel",
+ "styleTitle": "in the style of Vercel",
+ "model": "gemma-4-12b",
+ "pass": true,
+ "generatedAt": "2026-10-30T09:04:28.189Z",
+ "density": 9,
+ "autofixRules": 3,
+ "links": {
+  "original": 269,
+  "visible": 233
+ },
+ "gates": {
+  "contrast": {
+   "pass": true,
+   "checked": 304,
+   "unknown": 0,
+   "failures": []
+  },
+  "links": {
+   "pass": true,
+   "original": 269,
+   "present": 269,
+   "originallyVisible": 233,
+   "failures": []
+  },
+  "focus": {
+   "pass": true,
+   "checked": 30,
+   "failures": []
+  },
+  "phone": {
+   "pass": true,
+   "scrollWidth": 375,
+   "viewport": 375,
+   "failures": []
+  },
+  "motion": {
+   "pass": true,
+   "failures": []
+  }
+ },
+ "history": [
+  {
+   "step": "llm-1",
+   "pass": false,
+   "issues": 4,
+   "dropped": [
+    {
+     "decl": "--rs-canvas: #ffffff",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-surface: #fafafa",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-surface-2: #f2f2f2",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-ink: #171717",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-ink-muted: #5c5c5c",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-accent: #171717",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-on-accent: #ffffff",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-link: #0060df",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-link-visited: #6b2bb5",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-hairline: #eaeaea",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-focus: #0070f3",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-font: Geist, Inter, system-ui, -apple-system, 'Segoe UI', sans-serif",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-display: Geist, Inter, system-ui, -apple-system, 'Segoe UI', sans-serif",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-mono: 'Geist Mono', ui-monospace, Consolas, monospace",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-size: 15px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-leading: 1.6",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-heading-weight: 600",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-heading-tracking: -0.04em",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-1: calc(var(--rs-size) * 1.250)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-2: calc(var(--rs-size) * 1.563)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-3: calc(var(--rs-size) * 1.953)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-4: calc(var(--rs-size) * 2.441)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-small: calc(var(--rs-size) / 1.25)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-unit: 4px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-1: calc(4px * 1)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-2: calc(4px * 2)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-3: calc(4px * 3)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-4: calc(4px * 4)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-6: calc(4px * 6)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-8: calc(4px * 8)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-gutter: 24px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-measure: 880px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-sm: 4px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-md: 6px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-lg: 12px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-pill: 999px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-shadow-card: 0 0 0 1px rgba(0,0,0,.08), 0 2px 4px rgba(0,0,0,.04)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-quick: 150ms",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-ease: cubic-bezier(0.4, 0, 0.2, 1)",
+     "why": "tokens are fixed"
+    }
+   ],
+   "ms": 66847,
+   "cached": true,
+   "finish": "stop",
+   "gates": {
+    "contrast": {
+     "pass": false,
+     "checked": 304,
+     "unknown": 0,
+     "failures": [
+      {
+       "selector": "div.cl-subareas > button.bd-button.text-only > span",
+       "fg": "#ffffff",
+       "bg": "#ffffff",
+       "ratio": 1,
+       "need": 4.5,
+       "count": 6,
+       "sample": "sfc"
+      },
+      {
+       "selector": "div.location > button.bd-button.cl-goto-location-picker > span.label",
+       "fg": "#5c5c5c",
+       "bg": "#171717",
+       "ratio": 2.68,
+       "need": 4.5,
+       "count": 1,
+       "sample": "SF bay area"
+      },
+      {
+       "selector": "div.bd-posit-box > button.bd-button.en > span.label",
+       "fg": "#5c5c5c",
+       "bg": "#171717",
+       "ratio": 2.68,
+       "need": 4.5,
+       "count": 1,
+       "sample": "english"
+      }
+     ]
+    },
+    "links": {
+     "pass": true,
+     "original": 269,
+     "present": 269,
+     "originallyVisible": 233,
+     "failures": []
+    },
+    "focus": {
+     "pass": true,
+     "checked": 30,
+     "failures": []
+    },
+    "phone": {
+     "pass": true,
+     "scrollWidth": 375,
+     "viewport": 375,
+     "failures": []
+    },
+    "motion": {
+     "pass": true,
+     "failures": []
+    }
+   }
+  },
+  {
+   "step": "llm-2",
+   "pass": false,
+   "issues": 44,
+   "dropped": [
+    {
+     "decl": "--rs-canvas: #ffffff",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-surface: #fafafa",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-surface-2: #f2f2f2",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-ink: #171717",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-ink-muted: #5c5c5c",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-accent: #171717",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-on-accent: #ffffff",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-link: #0060df",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-link-visited: #6b2bb5",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-hairline: #eaeaea",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-focus: #0070f3",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-font: Geist, Inter, system-ui, -apple-system, 'Segoe UI', sans-serif",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-display: Geist, Inter, system-ui, -apple-system, 'Segoe UI', sans-serif",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-mono: 'Geist Mono', ui-monospace, Consolas, monospace",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-size: 15px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-leading: 1.6",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-heading-weight: 600",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-heading-tracking: -0.04em",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-1: calc(var(--rs-size) * 1.250)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-2: calc(var(--rs-size) * 1.563)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-3: calc(var(--rs-size) * 1.953)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-4: calc(var(--rs-size) * 2.441)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-small: calc(var(--rs-size) / 1.25)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-unit: 4px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-1: calc(4px * 1)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-2: calc(4px * 2)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-3: calc(4px * 3)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-4: calc(4px * 4)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-6: calc(4px * 6)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-8: calc(4px * 8)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-gutter: 24px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-measure: 880px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-sm: 4px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-md: 6px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-lg: 12px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-pill: 999px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-shadow-card: 0 0 0 1px rgba(0,0,0,.08), 0 2px 4px rgba(0,0,0,.04)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-quick: 150ms",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-ease: cubic-bezier(0.4, 0, 0.2, 1)",
+     "why": "tokens are fixed"
+    }
+   ],
+   "ms": 68807,
+   "cached": true,
+   "finish": "length",
+   "gates": {
+    "contrast": {
+     "pass": false,
+     "checked": 304,
+     "unknown": 0,
+     "failures": [
+      {
+       "selector": "div.cl-subareas > button.bd-button.text-only > span",
+       "fg": "#ffffff",
+       "bg": "#ffffff",
+       "ratio": 1,
+       "need": 4.5,
+       "count": 6,
+       "sample": "sfc"
+      }
+     ]
+    },
+    "links": {
+     "pass": true,
+     "original": 269,
+     "present": 269,
+     "originallyVisible": 233,
+     "failures": []
+    },
+    "focus": {
+     "pass": false,
+     "checked": 30,
+     "failures": [
+      {
+       "selector": "div.left > div.logo-post-group > a.cl-app-anchor.cl-goto-post",
+       "bg": "#ffffff",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 19.03,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div.with-magnifier.cl-home-search-query-ng > div.bd-posit-box > input",
+       "bg": "#ffffff",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 19.03,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div.left > div.calendar > a.cl-app-anchor.text-only",
+       "bg": "#fafafa",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 18.23,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div.left > div.link-group-1 > a.cl-app-anchor.text-only",
+       "bg": "#ffffff",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 19.03,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div.left > div.link-group-1 > a.cl-app-anchor.text-only",
+       "bg": "#ffffff",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 19.03,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div.left > div.link-group-1 > a.cl-app-anchor.text-only",
+       "bg": "#ffffff",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 19.03,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div.left > div.link-group-2 > a.cl-app-anchor.text-only",
+       "bg": "#ffffff",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 19.03,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div.left > div.link-group-2 > a.cl-app-anchor.text-only",
+       "bg": "#ffffff",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 19.03,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div.left > div.link-group-2 > a.cl-app-anchor.text-only",
+       "bg": "#ffffff",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 19.03,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div.left > div.link-group-2 > a.cl-app-anchor.text-only",
+       "bg": "#ffffff",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 19.03,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div.left > div.link-group-2 > a.cl-app-anchor.text-only",
+       "bg": "#ffffff",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 19.03,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div.content > div.left > a.jim-charitable",
+       "bg": "#ffffff",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 19.03,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div.content > div.left > a.craig-charitable",
+       "bg": "#ffffff",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 19.03,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div > div.location > button.bd-button.cl-goto-location-picker",
+       "bg": "#f2f2f2",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 17,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div.location > div.cl-subareas > button.bd-button.text-only",
+       "bg": "#f2f2f2",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 17,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div.location > div.cl-subareas > button.bd-button.text-only",
+       "bg": "#f2f2f2",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 17,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div.location > div.cl-subareas > button.bd-button.text-only",
+       "bg": "#f2f2f2",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 17,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div.location > div.cl-subareas > button.bd-button.text-only",
+       "bg": "#f2f2f2",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 17,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div.location > div.cl-subareas > button.bd-button.text-only",
+       "bg": "#f2f2f2",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 17,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div.location > div.cl-subareas > button.bd-button.text-only",
+       "bg": "#f2f2f2",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 17,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div > div.action-buttons > a.cl-thumb-anchor.cl-goto-favorites",
+       "bg": "#f2f2f2",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 17,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div > div.action-buttons > a.cl-thumb-anchor.cl-goto-post",
+       "bg": "#f2f2f2",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 17,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div > div.action-buttons > a.cl-thumb-anchor.cl-goto-account",
+       "bg": "#f2f2f2",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 17,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div.left > div.cl-link-table > a.cl-app-anchor.text-only",
+       "bg": "#fafafa",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 18.23,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div.link-container > div.column > a.cl-app-anchor.text-only",
+       "bg": "#fafafa",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 18.23,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div.link-container > div.column > a.cl-app-anchor.text-only",
+       "bg": "#fafafa",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 18.23,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div.link-container > div.column > a.cl-app-anchor.text-only",
+       "bg": "#fafafa",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 18.23,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div.link-container > div.column > a.cl-app-anchor.text-only",
+       "bg": "#fafafa",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 18.23,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div.link-container > div.column > a.cl-app-anchor.text-only",
+       "bg": "#fafafa",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 18.23,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      },
+      {
+       "selector": "div.link-container > div.column > a.cl-app-anchor.text-only",
+       "bg": "#fafafa",
+       "outline": "auto 1px #101010",
+       "outlineRatio": 18.23,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      }
+     ]
+    },
+    "phone": {
+     "pass": true,
+     "scrollWidth": 375,
+     "viewport": 375,
+     "failures": []
+    },
+    "motion": {
+     "pass": false,
+     "failures": [
+      {
+       "selector": "div.left > div.logo-post-group > a.cl-app-anchor.cl-goto-post",
+       "transition": 0.15,
+       "animation": 0
+      },
+      {
+       "selector": "div.left > div.calendar > a.cl-app-anchor.text-only",
+       "transition": 0.15,
+       "animation": 0
+      },
+      {
+       "selector": "div.left > div.link-group-1 > a.cl-app-anchor.text-only",
+       "transition": 0.15,
+       "animation": 0
+      },
+      {
+       "selector": "div.left > div.link-group-2 > a.cl-app-anchor.text-only",
+       "transition": 0.15,
+       "animation": 0
+      },
+      {
+       "selector": "div.content > div.left > a.jim-charitable",
+       "transition": 0.15,
+       "animation": 0
+      },
+      {
+       "selector": "div.content > div.left > a.craig-charitable",
+       "transition": 0.15,
+       "animation": 0
+      },
+      {
+       "selector": "div > div.location > button.bd-button.cl-goto-location-picker",
+       "transition": 0.15,
+       "animation": 0
+      },
+      {
+       "selector": "div.location > div.cl-subareas > button.bd-button.text-only",
+       "transition": 0.15,
+       "animation": 0
+      },
+      {
+       "selector": "div > div.action-buttons > a.cl-thumb-anchor.cl-goto-favorites",
+       "transition": 0.15,
+       "animation": 0
+      },
+      {
+       "selector": "div > div.action-buttons > a.cl-thumb-anchor.cl-goto-post",
+       "transition": 0.15,
+       "animation": 0
+      }
+     ]
+    }
+   }
+  },
+  {
+   "step": "autofix-1",
+   "pass": true,
+   "issues": 0,
+   "gates": {
+    "contrast": {
+     "pass": true,
+     "checked": 304,
+     "unknown": 0,
+     "failures": []
+    },
+    "links": {
+     "pass": true,
+     "original": 269,
+     "present": 269,
+     "originallyVisible": 233,
+     "failures": []
+    },
+    "focus": {
+     "pass": true,
+     "checked": 30,
+     "failures": []
+    },
+    "phone": {
+     "pass": true,
+     "scrollWidth": 375,
+     "viewport": 375,
+     "failures": []
+    },
+    "motion": {
+     "pass": true,
+     "failures": []
+    }
+   }
+  }
+ ]
+}

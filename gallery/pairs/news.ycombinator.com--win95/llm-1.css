@@ -1,0 +1,100 @@
+:root {
+}
+html, body {
+  background-color: var(--rs-canvas);
+  font-family: var(--rs-font);
+  font-size: var(--rs-size);
+  line-height: var(--rs-leading);
+  color: var(--rs-ink);
+  margin: 0;
+  padding: var(--rs-space-4);
+}
+body {
+  border: 2px solid;
+  border-color: var(--rs-surface-2) var(--rs-ink) var(--rs-ink) var(--rs-surface-2);
+  background-color: var(--rs-surface);
+  padding: var(--rs-space-6);
+  max-width: var(--rs-measure);
+  margin: var(--rs-space-6) auto;
+}
+center {
+  display: block;
+}
+table {
+  border-collapse: collapse;
+  border: 2px solid;
+  border-color: var(--rs-hairline) var(--rs-hairline) var(--rs-hairline) var(--rs-hairline);
+  background-color: var(--rs-surface);
+}
+th, td {
+  border: 1px solid var(--rs-hairline);
+  padding: var(--rs-space-2);
+}
+tr.spacer td {
+  border: none;
+  padding: 0;
+}
+tr:first-child td, 
+header, 
+.title-bar {
+  background-color: var(--rs-accent);
+  color: var(--rs-on-accent);
+  font-weight: var(--rs-heading-weight);
+  padding: var(--rs-space-3);
+  border: 2px solid;
+  border-color: var(--rs-surface-2) var(--rs-ink) var(--rs-ink) var(--rs-surface-2);
+}
+a {
+  color: var(--rs-link);
+  text-decoration: underline;
+}
+a:visited {
+  color: var(--rs-link-visited);
+}
+td.title {
+  font-weight: var(--rs-heading-weight);
+}
+td.subtext {
+  color: var(--rs-ink-muted);
+  font-size: var(--rs-text-small);
+}
+span.rank {
+  color: var(--rs-ink-muted);
+  margin-right: var(--rs-space-2);
+}
+input {
+  background-color: var(--rs-surface);
+  border: 2px solid;
+  border-color: var(--rs-ink) var(--rs-surface-2) var(--rs-surface-2) var(--rs-ink);
+  padding: var(--rs-space-2);
+  font-family: var(--rs-font);
+}
+button, .votearrow {
+  background-color: var(--rs-surface);
+  border: 2px solid;
+  border-color: var(--rs-surface-2) var(--rs-ink) var(--rs-ink) var(--rs-surface-2);
+  padding: var(--rs-space-2);
+  cursor: pointer;
+}
+.pagetop {
+  font-size: var(--rs-text-small);
+  color: var(--rs-ink-muted);
+}
+.score {
+  color: var(--rs-ink-muted);
+}
+.sitebit.comhead {
+  font-size: var(--rs-text-small);
+  color: var(--rs-ink-muted);
+}
+#bigbox {
+  margin-top: var(--rs-space-4);
+}
+tr.athing.submission td {
+  padding: var(--rs-space-2);
+}
+* {
+  box-sizing: border-box;
+  border-radius: var(--rs-radius-sm);
+  transition: all var(--rs-quick) var(--rs-ease);
+}

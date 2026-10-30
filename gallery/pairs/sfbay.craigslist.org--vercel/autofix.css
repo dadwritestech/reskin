@@ -1,0 +1,3 @@
+html body div.cl-subareas > button.bd-button.text-only > span { color: var(--rs-ink-muted) !important; opacity: 1 !important; }
+html body div.location > button.bd-button.cl-goto-location-picker > span.label { color: var(--rs-on-accent) !important; opacity: 1 !important; }
+html body div.bd-posit-box > button.bd-button.en > span.label { color: var(--rs-on-accent) !important; opacity: 1 !important; }

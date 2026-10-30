@@ -1,0 +1,8 @@
+html body tr > td > a:focus-visible { outline-color: var(--rs-on-accent) !important; }
+html body span.pagetop > b.hnname > a:focus-visible { outline-color: var(--rs-on-accent) !important; }
+html body td > span.pagetop > a:focus-visible { outline-color: var(--rs-on-accent) !important; }
+html body #up_50296470:focus-visible { outline-color: var(--rs-on-accent) !important; }
+html body td.title > span.titleline > a:focus-visible { outline-color: var(--rs-on-accent) !important; }
+html body span.titleline > span.sitebit.comhead > a:focus-visible { outline-color: var(--rs-on-accent) !important; }
+html body td.title > span.titleline > a:focus-visible { outline-color: #000 !important; outline-offset: 2px !important; box-shadow: 0 0 0 2px #fff !important; }
+html body span.titleline > span.sitebit.comhead > a:focus-visible { outline-color: #000 !important; outline-offset: 2px !important; box-shadow: 0 0 0 2px #fff !important; }

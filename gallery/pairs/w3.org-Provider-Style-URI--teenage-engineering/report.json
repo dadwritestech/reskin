@@ -1,0 +1,248 @@
+{
+ "url": "https://www.w3.org/Provider/Style/URI",
+ "finalUrl": "https://www.w3.org/Provider/Style/URI",
+ "title": "Hypertext Style: Cool URIs don't change.",
+ "style": "teenage-engineering",
+ "styleTitle": "in the style of Teenage Engineering",
+ "model": "gemma-4-12b",
+ "pass": true,
+ "generatedAt": "2026-10-30T09:11:29.122Z",
+ "density": 1.15,
+ "autofixRules": 0,
+ "links": {
+  "original": 7,
+  "visible": 7
+ },
+ "gates": {
+  "contrast": {
+   "pass": true,
+   "checked": 119,
+   "unknown": 0,
+   "failures": []
+  },
+  "links": {
+   "pass": true,
+   "original": 7,
+   "present": 7,
+   "originallyVisible": 7,
+   "failures": []
+  },
+  "focus": {
+   "pass": true,
+   "checked": 8,
+   "failures": []
+  },
+  "phone": {
+   "pass": true,
+   "scrollWidth": 375,
+   "viewport": 375,
+   "failures": []
+  },
+  "motion": {
+   "pass": true,
+   "failures": []
+  }
+ },
+ "history": [
+  {
+   "step": "llm-1",
+   "pass": true,
+   "issues": 0,
+   "dropped": [
+    {
+     "decl": "--rs-canvas: #e9e8e4",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-surface: #f5f4f0",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-surface-2: #d9d8d3",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-ink: #111111",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-ink-muted: #4a4a48",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-accent: #c43c00",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-on-accent: #ffffff",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-link: #111111",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-link-visited: #3d3d3b",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-hairline: #b9b8b2",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-focus: #c43c00",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-font: 'Helvetica Neue', Helvetica, Arial, sans-serif",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-display: 'Helvetica Neue', Helvetica, Arial, sans-serif",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-mono: 'IBM Plex Mono', 'JetBrains Mono', ui-monospace, Consolas, monospace",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-size: 14px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-leading: 1.5",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-heading-weight: 500",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-heading-tracking: -0.01em",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-1: calc(var(--rs-size) * 1.300)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-2: calc(var(--rs-size) * 1.690)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-3: calc(var(--rs-size) * 2.197)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-4: calc(var(--rs-size) * 2.856)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-small: calc(var(--rs-size) / 1.3)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-unit: 4px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-1: calc(4px * 1)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-2: calc(4px * 2)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-3: calc(4px * 3)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-4: calc(4px * 4)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-6: calc(4px * 6)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-8: calc(4px * 8)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-gutter: 20px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-measure: 960px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-sm: 2px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-md: 4px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-lg: 6px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-pill: 999px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-shadow-card: none",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-quick: 120ms",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-ease: cubic-bezier(0.2, 0, 0, 1)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "content: \"REF_\"",
+     "why": "no injected text"
+    }
+   ],
+   "ms": 48188,
+   "cached": true,
+   "finish": "stop",
+   "gates": {
+    "contrast": {
+     "pass": true,
+     "checked": 119,
+     "unknown": 0,
+     "failures": []
+    },
+    "links": {
+     "pass": true,
+     "original": 7,
+     "present": 7,
+     "originallyVisible": 7,
+     "failures": []
+    },
+    "focus": {
+     "pass": true,
+     "checked": 8,
+     "failures": []
+    },
+    "phone": {
+     "pass": true,
+     "scrollWidth": 375,
+     "viewport": 375,
+     "failures": []
+    },
+    "motion": {
+     "pass": true,
+     "failures": []
+    }
+   }
+  }
+ ]
+}

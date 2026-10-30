@@ -1,0 +1,16 @@
+{
+  "name": "reskin",
+  "version": "0.1.0",
+  "description": "Reskin any document-like website in the style of a design system, behind accessibility lint gates.",
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "playwright": "^1.64.1"
+  },
+  "bin": {
+    "reskin": "bin/reskin.mjs"
+  }
+}

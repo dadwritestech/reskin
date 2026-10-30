@@ -1,0 +1,104 @@
+:root {
+}
+body {
+  background-color: var(--rs-canvas);
+  color: var(--rs-ink);
+  font-family: var(--rs-font);
+  font-size: var(--rs-size);
+  line-height: var(--rs-leading);
+  padding: var(--rs-space-4);
+  margin: 0;
+}
+body {
+  border: 2px solid;
+  border-color: var(--rs-surface-2) var(--rs-hairline) var(--rs-hairline) var(--rs-surface-2);
+  box-shadow: var(--rs-shadow-card);
+  max-width: 360px;
+  margin: var(--rs-space-4) auto;
+  padding: var(--rs-space-6);
+}
+h1, h2, h3, b {
+  font-weight: var(--rs-heading-weight);
+  letter-spacing: var(--rs-heading-tracking);
+  color: var(--rs-ink);
+}
+h1, center:first-child {
+  background-color: var(--rs-accent);
+  color: var(--rs-on-accent);
+  padding: var(--rs-space-2) var(--rs-space-4);
+  border: 2px solid;
+  border-color: var(--rs-surface-2) var(--rs-hairline) var(--rs-hairline) var(--rs-surface-2);
+  margin-bottom: var(--rs-space-4);
+}
+a {
+  color: var(--rs-on-accent);
+  text-decoration: underline;
+}
+body td a, 
+body p a, 
+body dl a, 
+body ul li a {
+  color: var(--rs-link);
+}
+a:visited {
+  color: var(--rs-link-visited);
+}
+hr {
+  border: 0;
+  border-top: 1px solid var(--rs-hairline);
+  margin: var(--rs-space-4) 0;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid;
+  border-color: var(--rs-hairline) var(--rs-surface-2) var(--rs-surface-2) var(--rs-hairline);
+  background-color: var(--rs-surface);
+}
+td {
+  border: 1px solid var(--rs-hairline);
+  padding: var(--rs-space-2);
+  vertical-align: top;
+}
+tr:nth-child(even) td {
+  background-color: var(--rs-surface-2);
+}
+ul {
+  margin: 0;
+  padding-left: var(--rs-space-4);
+}
+li {
+  margin-bottom: var(--rs-space-1);
+}
+dl {
+  margin-top: var(--rs-space-4);
+  border: 1px solid var(--rs-hairline);
+  padding: var(--rs-space-4);
+  background-color: var(--rs-surface);
+}
+dl dt {
+  font-weight: bold;
+}
+img {
+  max-width: 100%;
+  border: 2px solid var(--rs-hairline);
+}
+input {
+  border: 2px solid;
+  border-color: var(--rs-hairline) var(--rs-surface-2) var(--rs-surface-2) var(--rs-hairline);
+  padding: var(--rs-space-1);
+  background: var(--rs-surface);
+}
+button {
+  border: 2px solid;
+  border-color: var(--rs-surface-2) var(--rs-hairline) var(--rs-hairline) var(--rs-surface-2);
+  background: var(--rs-surface);
+  padding: var(--rs-space-2) var(--rs-space-4);
+  cursor: pointer;
+}
+p {
+  margin-bottom: var(--rs-space-3);
+}
+center {
+  margin: var(--rs-space-4) 0;
+}

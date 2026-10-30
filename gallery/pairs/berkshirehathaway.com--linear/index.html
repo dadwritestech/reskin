@@ -1,0 +1,361 @@
+<html data-reskin="on"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="reskin 0.1 · in the style of Linear">
+<style data-rs-skin id="rs-skin">
+/* reskin base: in the style of Linear */
+:root {
+  --rs-canvas: #08090a;
+  --rs-surface: #0f1011;
+  --rs-surface-2: #161718;
+  --rs-ink: #f7f8f8;
+  --rs-ink-muted: #a3a8b1;
+  --rs-accent: #5e6ad2;
+  --rs-on-accent: #ffffff;
+  --rs-link: #9aa3ff;
+  --rs-link-visited: #b4a6f0;
+  --rs-hairline: #23252a;
+  --rs-focus: #828fff;
+  --rs-font: Inter, 'SF Pro Text', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --rs-display: Inter, 'SF Pro Display', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --rs-mono: 'Berkeley Mono', 'JetBrains Mono', ui-monospace, Consolas, monospace;
+  --rs-size: 15px;
+  --rs-leading: 1.6;
+  --rs-heading-weight: 600;
+  --rs-heading-tracking: -0.022em;
+  --rs-text-1: calc(var(--rs-size) * 1.250);
+  --rs-text-2: calc(var(--rs-size) * 1.563);
+  --rs-text-3: calc(var(--rs-size) * 1.953);
+  --rs-text-4: calc(var(--rs-size) * 2.441);
+  --rs-text-small: calc(var(--rs-size) / 1.25);
+  --rs-unit: 4px;
+  --rs-space-1: calc(4px * 1);
+  --rs-space-2: calc(4px * 2);
+  --rs-space-3: calc(4px * 3);
+  --rs-space-4: calc(4px * 4);
+  --rs-space-6: calc(4px * 6);
+  --rs-space-8: calc(4px * 8);
+  --rs-gutter: 24px;
+  --rs-measure: 760px;
+  --rs-radius-sm: 6px;
+  --rs-radius-md: 8px;
+  --rs-radius-lg: 12px;
+  --rs-radius-pill: 999px;
+  --rs-shadow-card: 0 0 0 1px #23252a, 0 8px 24px rgba(0,0,0,.35);
+  --rs-quick: 160ms;
+  --rs-ease: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  color-scheme: dark;
+}
+html { background: var(--rs-canvas); color: var(--rs-ink); }
+body {
+  margin: 0 auto; max-width: var(--rs-measure); padding: var(--rs-gutter);
+  background: var(--rs-canvas); color: var(--rs-ink);
+  font-family: var(--rs-font); font-size: var(--rs-size); line-height: var(--rs-leading);
+  overflow-wrap: anywhere; -webkit-font-smoothing: antialiased;
+}
+body * { font-family: inherit; }
+table { font-size: inherit; line-height: inherit; border-collapse: collapse; max-width: 100%; }
+:is(pre, code, kbd, samp, tt) { font-family: var(--rs-mono); font-size: 0.92em; }
+font[color], td, th { color: inherit; }
+[bgcolor], [background] { background: transparent; }
+a { color: var(--rs-link); text-decoration-thickness: 1px; text-underline-offset: 0.2em; }
+a:visited { color: var(--rs-link-visited); }
+:is(h1, h2, h3, h4, h5, h6) {
+  font-family: var(--rs-display); font-weight: var(--rs-heading-weight);
+  letter-spacing: var(--rs-heading-tracking); line-height: 1.2; color: var(--rs-ink);
+}
+h1 { font-size: var(--rs-text-3); } h2 { font-size: var(--rs-text-2); } h3 { font-size: var(--rs-text-1); }
+hr { border: 0; border-top: 1px solid var(--rs-hairline); }
+img, video { max-width: 100%; height: auto; }
+iframe, canvas, svg { max-width: 100%; }
+pre { overflow-x: auto; background: var(--rs-surface); color: var(--rs-ink); padding: calc(var(--rs-unit) * 3); border-radius: var(--rs-radius-md); }
+blockquote { margin-left: 0; padding-left: 1em; border-left: 3px solid var(--rs-hairline); }
+:is(input, select, textarea) {
+  font: inherit; color: var(--rs-ink); background: var(--rs-surface);
+  border: 1px solid var(--rs-hairline); border-radius: var(--rs-radius-sm); padding: 0.3em 0.6em; max-width: 100%;
+}
+:is(button, input[type=submit], input[type=button], input[type=reset]) {
+  font: inherit; color: var(--rs-on-accent); background: var(--rs-accent); border: 1px solid var(--rs-accent);
+  border-radius: var(--rs-radius-pill); padding: 0.35em 0.9em; cursor: pointer;
+}
+:is(button, input, [role=button])[data-rs-bare] { background-color: transparent; border-color: transparent; padding: 0; min-width: 0; color: inherit; }
+::selection { background: var(--rs-accent); color: var(--rs-on-accent); }
+[data-rs-hide] { display: none !important; }
+[data-rs-sr]:not(:focus):not(:focus-within) {
+  position: absolute !important; width: 1px !important; height: 1px !important; overflow: hidden !important;
+  clip: rect(0 0 0 0) !important; clip-path: inset(50%) !important; white-space: nowrap !important;
+}
+@media (max-width: 640px) {
+  body { padding: calc(var(--rs-gutter) / 2); }
+  table { display: block; overflow-x: auto; width: auto !important; }
+  :is(td, th) { white-space: normal; }
+  [width] { max-width: 100%; }
+  pre { white-space: pre; }
+}
+
+/* site icons, kept from the original */
+
+/* --- LLM layer --- */
+:root {
+}
+body {
+  background-color: var(--rs-canvas);
+  color: var(--rs-ink);
+  font-family: var(--rs-font);
+  font-size: var(--rs-size);
+  line-height: var(--rs-leading);
+  max-width: var(--rs-measure);
+  margin: 0 auto;
+  padding: var(--rs-space-8);
+}
+p {
+  margin-bottom: var(--rs-space-4);
+  color: var(--rs-ink);
+}
+hr {
+  border: 0;
+  border-top: 1px solid var(--rs-hairline);
+  margin: var(--rs-space-6) 0;
+}
+center {
+  display: block;
+  text-align: center;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--rs-surface);
+  border: 1px solid var(--rs-hairline);
+  border-radius: var(--rs-radius-md);
+  overflow: hidden;
+  margin: var(--rs-space-6) 0;
+}
+tbody tr {
+  border-bottom: 1px solid var(--rs-hairline);
+  transition: background-color var(--rs-quick) var(--rs-ease);
+}
+tbody tr:last-child {
+  border-bottom: none;
+}
+tbody tr:hover {
+  background-color: var(--rs-surface-2);
+}
+td {
+  padding: var(--rs-space-2) var(--rs-space-4);
+  vertical-align: middle;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  text-align: left;
+}
+li {
+  padding: var(--rs-space-1) 0;
+}
+a {
+  color: var(--rs-link);
+  text-decoration: none;
+  transition: color var(--rs-quick) var(--rs-ease);
+}
+a:hover {
+  color: var(--rs-focus);
+}
+b {
+  font-weight: var(--rs-heading-weight);
+  letter-spacing: var(--rs-heading-tracking);
+  color: var(--rs-ink);
+}
+dl {
+  background-color: var(--rs-surface);
+  padding: var(--rs-space-6);
+  border-radius: var(--rs-radius-md);
+  border: 1px solid var(--rs-hairline);
+}
+dl dt {
+  font-weight: var(--rs-heading-weight);
+  margin-bottom: var(--rs-space-1);
+}
+dl dd {
+  margin-left: var(--rs-space-2);
+  margin-bottom: var(--rs-space-4);
+  color: var(--rs-ink-muted);
+}
+img {
+  max-width: 100%;
+  border-radius: var(--rs-radius-sm);
+  border: 1px solid var(--rs-hairline);
+}
+div {
+  margin-bottom: var(--rs-space-6);
+}
+td:nth-child(2) {
+  color: var(--rs-ink-muted);
+  font-size: var(--rs-text-small);
+}
+/* --- autofix --- */
+
+/* reskin floor (always last) */
+:focus-visible { outline: 2px solid var(--rs-focus) !important; outline-offset: 2px !important; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+}
+
+</style>
+
+
+
+<title>BERKSHIRE HATHAWAY INC.</title>
+
+<meta name="GENERATOR" content="MSHTML 8.00.6001.18828"></head>
+<body link="#800080" bgcolor="#ffffff" text="#000080" vlink="#ff0000"><b><font size="6">
+</font></b><p align="center"><b><font size="6">B</font><font size="4">ERKSHIRE </font><font size="6">H</font><font size="4">ATHAWAY </font><font size="2">INC.<br>3555 Farnam Street<br>Omaha, NE 68131</font><br>Official Home Page</b><font size="1">&nbsp;</font></p>
+<hr>
+<p align="center">
+</p><center>
+<table border="0" cellspacing="0" width="90%">
+  <tbody>
+  <tr>
+    <td height="55" valign="top" width="50%">
+      <ul>
+        <li><a href="https://www.berkshirehathaway.com/message.html">A Message from Warren E. Buffett</a> 
+    </li></ul></td>
+   <td height="45" valign="top" width="50%">
+      <ul>
+        <li><a href="https://www.berkshirehathaway.com/webfraud.pdf">Fraudulent Claims Regarding Mr. Buffett's Endorsements of Investment Products and Political Candidates</a>
+            </li></ul></td></tr> 
+  <tr>
+    <td height="45" valign="top" width="50%">
+      <ul>
+        <li><a href="https://www.berkshirehathaway.com/reports.html">Annual &amp; Interim Reports</a> <br><font size="1">Updated August 8, 2026<br></font></li></ul></td>
+    <td height="45" valign="top" width="50%">
+		  <ul>
+        <li><a href="https://www.berkshirehathaway.com/news/2026news.html">News Releases from Berkshire Hathaway and from Warren Buffett</a> <br> 
+        <font size="1">Updated September 18, 2026</font></li></ul></td></tr>
+  
+	
+  <tr>
+    <td height="45" valign="top" width="50%">
+      <ul>
+        <li><a href="http://www.sec.gov/cgi-bin/browse-edgar?company=berkshire+hathaway&amp;match=&amp;CIK=&amp;filenum=&amp;State=&amp;Country=&amp;SIC=&amp;owner=exclude&amp;Find=Find+Companies&amp;action=getcompany">Link 
+        to SEC Filings</a> </li></ul></td>
+    <td height="45" valign="top" width="50%">
+      <ul>
+         <li><a href="https://www.berkshirehathaway.com/sharehold.html">Annual Meeting Information</a> <br><font size="1">Updated April 20, 2026<br></font>
+					</li></ul></td></tr>
+   <tr>
+    <td height="45" valign="top" width="50%">
+		<ul>
+        <li><a href="https://www.berkshirehathaway.com/letters/letters.html">Warren Buffett's Letters to Berkshire 
+        Shareholders</a> <br><font size="1">Updated February 22, 2025<br></font>
+							 </li></ul></td>
+    <td height="45" valign="top" width="50%">
+		<ul>
+        <li><a href="https://www.berkshirehathaway.com/letters/gealetters.html">Greg Abel's Letters to Berkshire Shareholders</a>
+				<br><font size="1">Updated February 28, 2026<br></font><br>
+				    </li></ul></td></tr>
+<tr>
+    <td height="45" valign="top" width="50%">
+      <ul>
+        <li><a href="https://www.berkshirehathaway.com/SpecialLetters/WEBCTMLtr.html">Special Letters from Warren &amp; Charlie RE:Past, Present and Future</a> </li></ul></td>
+    <td height="55" valign="top" width="50%">
+      <ul>
+        <li><a href="https://www.berkshirehathaway.com/wesco/WescoHome.html">Charlie Munger's Letters to Wesco Shareholders</a><br>
+				    </li></ul></td></tr>
+	
+	
+	
+				
+  <tr>
+    <td height="45" valign="top" width="50%">
+		<ul>
+        <li><a href="https://www.berkshirehathaway.com/subs/sublinks.html">Links to Berkshire Operating Companies</a> <br><font size="1"><br></font></li></ul></td>
+    <td height="45" valign="top" width="50%">
+		<ul>
+        <li><a href="https://www.berkshirehathaway.com/bhenergy/bhenergypresentations.html">Berkshire Hathaway Energy Investor Presentations</a>
+					</li></ul></td></tr>
+
+  <tr>
+    <td height="45" valign="top" width="50%">
+      <ul>
+        <li><a href="https://www.berkshirehathaway.com/govern/govern.html">Corporate Governance</a> <br><font size="1"><br></font></li></ul></td>
+    <td height="45" valign="top" width="50%">
+	<ul>
+        <li><a href="https://www.berkshirehathaway.com/brkshareholderinfo/brkshareholderinfo.html">Common Stock Information</a></li></ul>	
+		</td></tr>
+
+  <tr>
+    <td height="45" valign="top" width="50%">
+		<ul>
+        <li><a href="https://www.berkshirehathaway.com/sustainability/sustainabilityintro.html">Sustainability</a></li></ul></td>
+    <td height="55" valign="top" width="50%">
+		<ul>
+				       </ul></td></tr>
+
+  
+		
+	
+ 
+				
+
+
+</tbody></table></center>
+<p></p>
+<p align="center">
+</p><div></div>
+<p></p>
+<p>
+</p><hr>
+
+<p></p>
+<p align="center"><a href="http://www.geico.com/"><img border="0" alt="GEICO logo" src="https://www.berkshirehathaway.com/geicoimg.gif" width="75" height="15"><font size="1"><br></font></a><font size="1">FOR A FREE CAR INSURANCE RATE QUOTE THAT 
+COULD SAVE YOU SUBSTANTIAL MONEY<br><a href="http://www.geico.com/">WWW.GEICO.COM</a> OR CALL 
+1-888-395-6349, 24 HOURS A DAY</font></p>
+<p>
+</p><hr>
+
+
+<p></p><font size="2">
+<p><a name="LETTERS"></a><a name="OWNER"></a><a name="STOCKCLASS"></a><a name="LINKS"></a>If you have any comments about our WEB page, you can 
+write us at the address shown above.  However, due to 
+the limited number of personnel in our corporate office, we are unable to 
+provide a direct response.</p></font>
+<p>
+</p><hr>
+
+
+<dl><p></p><p align="left"><font size="2"><a href="https://www.berkshirehathaway.com/disclaimer.html">Legal Disclaimer</a> 
+</font></p><p align="left"><font size="2">Copyright © 1977-2026<b> Berkshire Hathaway Inc.</b></font><font size="2"> 
+</font></p></dl><font size="2">
+<p><a name="ANNUAL"></a><a name="INTERIM"></a><a name="WEBLETTER"></a><a name="ACTIVEWEAR"></a><a name="ANNMTG"></a></p></font>
+<script data-rs-toggle>
+(() => {
+  const html = document.documentElement;
+  const set = (on) => {
+    html.dataset.reskin = on ? 'on' : 'off';
+    document.querySelectorAll('[data-rs-skin]').forEach((s) => (s.media = on ? 'all' : 'not all'));
+    document.querySelectorAll('[data-rs-orig]').forEach((s) => (s.media = on ? 'not all' : s.dataset.rsMedia || 'all'));
+    document.querySelectorAll('[data-rs-style]').forEach((e) => (on ? e.removeAttribute('style') : e.setAttribute('style', e.dataset.rsStyle)));
+    btn.textContent = on ? 'Show original' : 'Show reskin';
+    btn.setAttribute('aria-pressed', String(on));
+  };
+  const host = document.createElement('div');
+  host.id = 'rs-toggle-host';
+  const root = host.attachShadow({ mode: 'open' });
+  root.innerHTML = `<style>
+    :host { all: initial; position: fixed; right: 12px; bottom: 12px; z-index: 2147483647; max-width: calc(100vw - 24px); }
+    .pill { display: flex; gap: 10px; align-items: center; padding: 6px 6px 6px 14px; border-radius: 999px;
+      background: #111; color: #f2f2f2; font: 500 12px/1.2 system-ui, sans-serif; box-shadow: 0 4px 16px rgba(0,0,0,.3); }
+    button { font: inherit; color: #111; background: #f2f2f2; border: 0; border-radius: 999px; padding: 6px 12px; cursor: pointer; }
+    button:focus-visible { outline: 2px solid #f2f2f2; outline-offset: 2px; }
+    @media (max-width: 420px) { .label { display: none; } }
+  </style><div class="pill"><span class="label">reskin · in the style of Linear · not affiliated</span><button type="button"></button></div>`;
+  const btn = root.querySelector('button');
+  btn.addEventListener('click', () => set(html.dataset.reskin !== 'on'));
+  addEventListener('keydown', (e) => { if (e.altKey && e.shiftKey && e.code === 'KeyR') set(html.dataset.reskin !== 'on'); });
+  document.body.appendChild(host);
+  window.__reskin = set;
+  set(html.dataset.reskin !== 'off');
+})();
+</script></body></html>

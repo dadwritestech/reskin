@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>reskin gallery</title>
+<style>
+:root { --bg:#fafaf9; --ink:#1c1917; --muted:#57534e; --line:#e7e5e4; --ok:#166534; --bad:#991b1b; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.55 system-ui, -apple-system, 'Segoe UI', sans-serif; }
+main { max-width:1240px; margin:0 auto; padding:40px 24px 80px; }
+h1 { font-size:40px; letter-spacing:-0.03em; margin:0 0 4px; }
+.lede { color:var(--muted); max-width:70ch; margin:0 0 8px; }
+.stats { font:13px ui-monospace, Consolas, monospace; color:var(--muted); margin:0 0 32px; }
+article { border-top:1px solid var(--line); padding:28px 0; }
+article header { display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 12px; margin-bottom:12px; }
+h2 { font-size:18px; margin:0; flex:1 1 auto; } h2 em { font-weight:400; color:var(--muted); font-style:normal; }
+a { color:#1d4ed8; } a:focus-visible { outline:2px solid #1d4ed8; outline-offset:2px; }
+.pair { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+figure { margin:0; } img { width:100%; height:auto; display:block; border:1px solid var(--line); border-radius:6px; background:#fff; }
+figcaption { font:12px ui-monospace, Consolas, monospace; color:var(--muted); margin-top:4px; }
+.gates { list-style:none; padding:0; margin:12px 0 0; display:flex; flex-wrap:wrap; gap:6px; font:12px ui-monospace, Consolas, monospace; }
+.gates li { border:1px solid var(--line); border-radius:999px; padding:2px 10px; background:#fff; }
+.gates .ok { color:var(--ok); } .gates .bad { color:var(--bad); } .gates span { color:var(--muted); } .gates .meta { border:0; color:var(--muted); background:none; }
+.note { color:var(--muted); font-size:13px; border-top:1px solid var(--line); padding-top:20px; max-width:80ch; }
+@media (max-width:720px) { .pair { grid-template-columns:1fr; } h1 { font-size:30px; } }
+</style></head>
+<body><main>
+<h1>reskin</h1>
+<p class="lede">Real public pages, content and links untouched, restyled by a local 12B model from a design-token markdown file.
+Every "after" passed five lint gates before it was written: text contrast (WCAG AA), visible keyboard focus,
+375px phone layout with no horizontal scroll, every original link still present, and reduced motion.</p>
+<p class="stats">20 shipped · 0 rejected by the gates · model gemma-4-12b · 2026-10-30</p>
+<article>
+  <header><h2>news.ycombinator.com <em>in the style of Linear</em></h2>
+  <a href="pairs/news.ycombinator.com--linear/index.html">open reskin</a> · <a href="https://news.ycombinator.com/">original</a></header>
+  <div class="pair">
+    <figure><img loading="lazy" src="pairs/news.ycombinator.com--linear/before.jpg" alt="news.ycombinator.com as published"><figcaption>before</figcaption></figure>
+    <figure><img loading="lazy" src="pairs/news.ycombinator.com--linear/after.jpg" alt="news.ycombinator.com reskinned in the style of Linear"><figcaption>after</figcaption></figure>
+  </div>
+  <ul class="gates"><li class="ok">✓ contrast <span>320 text els</span></li><li class="ok">✓ links <span>226/226</span></li><li class="ok">✓ focus <span>30 stops</span></li><li class="ok">✓ phone <span>375/375px</span></li><li class="ok">✓ motion <span>reduced</span></li>
+  <li class="meta">passed at llm-1 · height ×3.35</li></ul>
+</article>
+<article>
+  <header><h2>news.ycombinator.com <em>in the style of Windows 95</em></h2>
+  <a href="pairs/news.ycombinator.com--win95/index.html">open reskin</a> · <a href="https://news.ycombinator.com/">original</a></header>
+  <div class="pair">
+    <figure><img loading="lazy" src="pairs/news.ycombinator.com--win95/before.jpg" alt="news.ycombinator.com as published"><figcaption>before</figcaption></figure>
+    <figure><img loading="lazy" src="pairs/news.ycombinator.com--win95/after.jpg" alt="news.ycombinator.com reskinned in the style of Windows 95"><figcaption>after</figcaption></figure>
+  </div>
+  <ul class="gates"><li class="ok">✓ contrast <span>320 text els</span></li><li class="ok">✓ links <span>226/226</span></li><li class="ok">✓ focus <span>30 stops</span></li><li class="ok">✓ phone <span>375/375px</span></li><li class="ok">✓ motion <span>reduced</span></li>
+  <li class="meta">passed at autofix-2, 8 autofix rules · height ×1.49</li></ul>
+</article>
+<article>
+  <header><h2>en.wikipedia.org <em>in the style of Stripe</em></h2>
+  <a href="pairs/en.wikipedia.org-wiki-Typography-banner-none--stripe/index.html">open reskin</a> · <a href="https://en.wikipedia.org/wiki/Typography?banner=none">original</a></header>
+  <div class="pair">
+    <figure><img loading="lazy" src="pairs/en.wikipedia.org-wiki-Typography-banner-none--stripe/before.jpg" alt="en.wikipedia.org as published"><figcaption>before</figcaption></figure>
+    <figure><img loading="lazy" src="pairs/en.wikipedia.org-wiki-Typography-banner-none--stripe/after.jpg" alt="en.wikipedia.org reskinned in the style of Stripe"><figcaption>after</figcaption></figure>
+  </div>
+  <ul class="gates"><li class="ok">✓ contrast <span>1144 text els</span></li><li class="ok">✓ links <span>1251/1251</span></li><li class="ok">✓ focus <span>30 stops</span></li><li class="ok">✓ phone <span>375/375px</span></li><li class="ok">✓ motion <span>reduced</span></li>
+  <li class="meta">passed at llm-1 · height ×1.39</li></ul>
+</article>
+<article>
+  <header><h2>en.wikipedia.org <em>in the style of Teenage Engineering</em></h2>
+  <a href="pairs/en.wikipedia.org-wiki-Typography-banner-none--teenage-engineering/index.html">open reskin</a> · <a href="https://en.wikipedia.org/wiki/Typography?banner=none">original</a></header>
+  <div class="pair">
+    <figure><img loading="lazy" src="pairs/en.wikipedia.org-wiki-Typography-banner-none--teenage-engineering/before.jpg" alt="en.wikipedia.org as published"><figcaption>before</figcaption></figure>
+    <figure><img loading="lazy" src="pairs/en.wikipedia.org-wiki-Typography-banner-none--teenage-engineering/after.jpg" alt="en.wikipedia.org reskinned in the style of Teenage Engineering"><figcaption>after</figcaption></figure>
+  </div>
+  <ul class="gates"><li class="ok">✓ contrast <span>1144 text els</span></li><li class="ok">✓ links <span>1251/1251</span></li><li class="ok">✓ focus <span>30 stops</span></li><li class="ok">✓ phone <span>375/375px</span></li><li class="ok">✓ motion <span>reduced</span></li>
+  <li class="meta">passed at llm-2 · height ×1.09</li></ul>
+</article>
+<article>
+  <header><h2>sfbay.craigslist.org <em>in the style of Apple</em></h2>
+  <a href="pairs/sfbay.craigslist.org--apple/index.html">open reskin</a> · <a href="https://sfbay.craigslist.org/">original</a></header>
+  <div class="pair">
+    <figure><img loading="lazy" src="pairs/sfbay.craigslist.org--apple/before.jpg" alt="sfbay.craigslist.org as published"><figcaption>before</figcaption></figure>
+    <figure><img loading="lazy" src="pairs/sfbay.craigslist.org--apple/after.jpg" alt="sfbay.craigslist.org reskinned in the style of Apple"><figcaption>after</figcaption></figure>
+  </div>
+  <ul class="gates"><li class="ok">✓ contrast <span>304 text els</span></li><li class="ok">✓ links <span>269/269</span></li><li class="ok">✓ focus <span>30 stops</span></li><li class="ok">✓ phone <span>375/375px</span></li><li class="ok">✓ motion <span>reduced</span></li>
+  <li class="meta">passed at llm-1 · height ×5.49</li></ul>
+</article>
+<article>
+  <header><h2>sfbay.craigslist.org <em>in the style of Vercel</em></h2>
+  <a href="pairs/sfbay.craigslist.org--vercel/index.html">open reskin</a> · <a href="https://sfbay.craigslist.org/">original</a></header>
+  <div class="pair">
+    <figure><img loading="lazy" src="pairs/sfbay.craigslist.org--vercel/before.jpg" alt="sfbay.craigslist.org as published"><figcaption>before</figcaption></figure>
+    <figure><img loading="lazy" src="pairs/sfbay.craigslist.org--vercel/after.jpg" alt="sfbay.craigslist.org reskinned in the style of Vercel"><figcaption>after</figcaption></figure>
+  </div>
+  <ul class="gates"><li class="ok">✓ contrast <span>304 text els</span></li><li class="ok">✓ links <span>269/269</span></li><li class="ok">✓ focus <span>30 stops</span></li><li class="ok">✓ phone <span>375/375px</span></li><li class="ok">✓ motion <span>reduced</span></li>
+  <li class="meta">passed at autofix-1, 3 autofix rules · height ×9</li></ul>
+</article>
+<article>
+  <header><h2>gov.uk <em>in the style of Apple</em></h2>
+  <a href="pairs/gov.uk-browse-driving--apple/index.html">open reskin</a> · <a href="https://www.gov.uk/browse/driving">original</a></header>
+  <div class="pair">
+    <figure><img loading="lazy" src="pairs/gov.uk-browse-driving--apple/before.jpg" alt="gov.uk as published"><figcaption>before</figcaption></figure>
+    <figure><img loading="lazy" src="pairs/gov.uk-browse-driving--apple/after.jpg" alt="gov.uk reskinned in the style of Apple"><figcaption>after</figcaption></figure>
+  </div>
+  <ul class="gates"><li class="ok">✓ contrast <span>93 text els</span></li><li class="ok">✓ links <span>86/86</span></li><li class="ok">✓ focus <span>30 stops</span></li><li class="ok">✓ phone <span>375/375px</span></li><li class="ok">✓ motion <span>reduced</span></li>
+  <li class="meta">passed at llm-1 · height ×1.39</li></ul>
+</article>
+<article>
+  <header><h2>gov.uk <em>in the style of Linear</em></h2>
+  <a href="pairs/gov.uk-browse-driving--linear/index.html">open reskin</a> · <a href="https://www.gov.uk/browse/driving">original</a></header>
+  <div class="pair">
+    <figure><img loading="lazy" src="pairs/gov.uk-browse-driving--linear/before.jpg" alt="gov.uk as published"><figcaption>before</figcaption></figure>
+    <figure><img loading="lazy" src="pairs/gov.uk-browse-driving--linear/after.jpg" alt="gov.uk reskinned in the style of Linear"><figcaption>after</figcaption></figure>
+  </div>
+  <ul class="gates"><li class="ok">✓ contrast <span>93 text els</span></li><li class="ok">✓ links <span>86/86</span></li><li class="ok">✓ focus <span>30 stops</span></li><li class="ok">✓ phone <span>375/375px</span></li><li class="ok">✓ motion <span>reduced</span></li>
+  <li class="meta">passed at llm-1 · height ×1.09</li></ul>
+</article>
+<article>
+  <header><h2>usa.gov <em>in the style of Vercel</em></h2>
+  <a href="pairs/usa.gov--vercel/index.html">open reskin</a> · <a href="https://www.usa.gov/">original</a></header>
+  <div class="pair">
+    <figure><img loading="lazy" src="pairs/usa.gov--vercel/before.jpg" alt="usa.gov as published"><figcaption>before</figcaption></figure>
+    <figure><img loading="lazy" src="pairs/usa.gov--vercel/after.jpg" alt="usa.gov reskinned in the style of Vercel"><figcaption>after</figcaption></figure>
+  </div>
+  <ul class="gates"><li class="ok">✓ contrast <span>98 text els</span></li><li class="ok">✓ links <span>77/77</span></li><li class="ok">✓ focus <span>30 stops</span></li><li class="ok">✓ phone <span>375/375px</span></li><li class="ok">✓ motion <span>reduced</span></li>
+  <li class="meta">passed at llm-1 · height ×1.51</li></ul>
+</article>
+<article>
+  <header><h2>usa.gov <em>in the style of Windows 95</em></h2>
+  <a href="pairs/usa.gov--win95/index.html">open reskin</a> · <a href="https://www.usa.gov/">original</a></header>
+  <div class="pair">
+    <figure><img loading="lazy" src="pairs/usa.gov--win95/before.jpg" alt="usa.gov as published"><figcaption>before</figcaption></figure>
+    <figure><img loading="lazy" src="pairs/usa.gov--win95/after.jpg" alt="usa.gov reskinned in the style of Windows 95"><figcaption>after</figcaption></figure>
+  </div>
+  <ul class="gates"><li class="ok">✓ contrast <span>98 text els</span></li><li class="ok">✓ links <span>77/77</span></li><li class="ok">✓ focus <span>30 stops</span></li><li class="ok">✓ phone <span>375/375px</span></li><li class="ok">✓ motion <span>reduced</span></li>
+  <li class="meta">passed at autofix-1, 2 autofix rules · height ×1.05</li></ul>
+</article>
+<article>
+  <header><h2>info.cern.ch <em>in the style of Linear</em></h2>
+  <a href="pairs/info.cern.ch-hypertext-WWW-TheProject.html--linear/index.html">open reskin</a> · <a href="https://info.cern.ch/hypertext/WWW/TheProject.html">original</a></header>
+  <div class="pair">
+    <figure><img loading="lazy" src="pairs/info.cern.ch-hypertext-WWW-TheProject.html--linear/before.jpg" alt="info.cern.ch as published"><figcaption>before</figcaption></figure>
+    <figure><img loading="lazy" src="pairs/info.cern.ch-hypertext-WWW-TheProject.html--linear/after.jpg" alt="info.cern.ch reskinned in the style of Linear"><figcaption>after</figcaption></figure>
+  </div>
+  <ul class="gates"><li class="ok">✓ contrast <span>40 text els</span></li><li class="ok">✓ links <span>25/25</span></li><li class="ok">✓ focus <span>26 stops</span></li><li class="ok">✓ phone <span>375/375px</span></li><li class="ok">✓ motion <span>reduced</span></li>
+  <li class="meta">passed at llm-1 · height ×1.23</li></ul>
+</article>
+<article>
+  <header><h2>info.cern.ch <em>in the style of Stripe</em></h2>
+  <a href="pairs/info.cern.ch-hypertext-WWW-TheProject.html--stripe/index.html">open reskin</a> · <a href="https://info.cern.ch/hypertext/WWW/TheProject.html">original</a></header>
+  <div class="pair">
+    <figure><img loading="lazy" src="pairs/info.cern.ch-hypertext-WWW-TheProject.html--stripe/before.jpg" alt="info.cern.ch as published"><figcaption>before</figcaption></figure>
+    <figure><img loading="lazy" src="pairs/info.cern.ch-hypertext-WWW-TheProject.html--stripe/after.jpg" alt="info.cern.ch reskinned in the style of Stripe"><figcaption>after</figcaption></figure>
+  </div>
+  <ul class="gates"><li class="ok">✓ contrast <span>40 text els</span></li><li class="ok">✓ links <span>25/25</span></li><li class="ok">✓ focus <span>26 stops</span></li><li class="ok">✓ phone <span>375/375px</span></li><li class="ok">✓ motion <span>reduced</span></li>
+  <li class="meta">passed at llm-1 · height ×1.42</li></ul>
+</article>
+<article>
+  <header><h2>lite.cnn.com <em>in the style of Apple</em></h2>
+  <a href="pairs/lite.cnn.com--apple/index.html">open reskin</a> · <a href="https://lite.cnn.com/">original</a></header>
+  <div class="pair">
+    <figure><img loading="lazy" src="pairs/lite.cnn.com--apple/before.jpg" alt="lite.cnn.com as published"><figcaption>before</figcaption></figure>
+    <figure><img loading="lazy" src="pairs/lite.cnn.com--apple/after.jpg" alt="lite.cnn.com reskinned in the style of Apple"><figcaption>after</figcaption></figure>
+  </div>
+  <ul class="gates"><li class="ok">✓ contrast <span>126 text els</span></li><li class="ok">✓ links <span>111/111</span></li><li class="ok">✓ focus <span>30 stops</span></li><li class="ok">✓ phone <span>375/375px</span></li><li class="ok">✓ motion <span>reduced</span></li>
+  <li class="meta">passed at llm-1 · height ×2.73</li></ul>
+</article>
+<article>
+  <header><h2>lite.cnn.com <em>in the style of Teenage Engineering</em></h2>
+  <a href="pairs/lite.cnn.com--teenage-engineering/index.html">open reskin</a> · <a href="https://lite.cnn.com/">original</a></header>
+  <div class="pair">
+    <figure><img loading="lazy" src="pairs/lite.cnn.com--teenage-engineering/before.jpg" alt="lite.cnn.com as published"><figcaption>before</figcaption></figure>
+    <figure><img loading="lazy" src="pairs/lite.cnn.com--teenage-engineering/after.jpg" alt="lite.cnn.com reskinned in the style of Teenage Engineering"><figcaption>after</figcaption></figure>
+  </div>
+  <ul class="gates"><li class="ok">✓ contrast <span>126 text els</span></li><li class="ok">✓ links <span>111/111</span></li><li class="ok">✓ focus <span>30 stops</span></li><li class="ok">✓ phone <span>375/375px</span></li><li class="ok">✓ motion <span>reduced</span></li>
+  <li class="meta">passed at llm-2 · height ×1.77</li></ul>
+</article>
+<article>
+  <header><h2>text.npr.org <em>in the style of Stripe</em></h2>
+  <a href="pairs/text.npr.org--stripe/index.html">open reskin</a> · <a href="https://text.npr.org/">original</a></header>
+  <div class="pair">
+    <figure><img loading="lazy" src="pairs/text.npr.org--stripe/before.jpg" alt="text.npr.org as published"><figcaption>before</figcaption></figure>
+    <figure><img loading="lazy" src="pairs/text.npr.org--stripe/after.jpg" alt="text.npr.org reskinned in the style of Stripe"><figcaption>after</figcaption></figure>
+  </div>
+  <ul class="gates"><li class="ok">✓ contrast <span>35 text els</span></li><li class="ok">✓ links <span>28/28</span></li><li class="ok">✓ focus <span>29 stops</span></li><li class="ok">✓ phone <span>375/375px</span></li><li class="ok">✓ motion <span>reduced</span></li>
+  <li class="meta">passed at llm-1 · height ×1.91</li></ul>
+</article>
+<article>
+  <header><h2>text.npr.org <em>in the style of Vercel</em></h2>
+  <a href="pairs/text.npr.org--vercel/index.html">open reskin</a> · <a href="https://text.npr.org/">original</a></header>
+  <div class="pair">
+    <figure><img loading="lazy" src="pairs/text.npr.org--vercel/before.jpg" alt="text.npr.org as published"><figcaption>before</figcaption></figure>
+    <figure><img loading="lazy" src="pairs/text.npr.org--vercel/after.jpg" alt="text.npr.org reskinned in the style of Vercel"><figcaption>after</figcaption></figure>
+  </div>
+  <ul class="gates"><li class="ok">✓ contrast <span>35 text els</span></li><li class="ok">✓ links <span>28/28</span></li><li class="ok">✓ focus <span>29 stops</span></li><li class="ok">✓ phone <span>375/375px</span></li><li class="ok">✓ motion <span>reduced</span></li>
+  <li class="meta">passed at llm-1 · height ×1.5</li></ul>
+</article>
+<article>
+  <header><h2>berkshirehathaway.com <em>in the style of Linear</em></h2>
+  <a href="pairs/berkshirehathaway.com--linear/index.html">open reskin</a> · <a href="https://www.berkshirehathaway.com/">original</a></header>
+  <div class="pair">
+    <figure><img loading="lazy" src="pairs/berkshirehathaway.com--linear/before.jpg" alt="berkshirehathaway.com as published"><figcaption>before</figcaption></figure>
+    <figure><img loading="lazy" src="pairs/berkshirehathaway.com--linear/after.jpg" alt="berkshirehathaway.com reskinned in the style of Linear"><figcaption>after</figcaption></figure>
+  </div>
+  <ul class="gates"><li class="ok">✓ contrast <span>34 text els</span></li><li class="ok">✓ links <span>18/18</span></li><li class="ok">✓ focus <span>19 stops</span></li><li class="ok">✓ phone <span>375/375px</span></li><li class="ok">✓ motion <span>reduced</span></li>
+  <li class="meta">passed at llm-1 · height ×1.47</li></ul>
+</article>
+<article>
+  <header><h2>berkshirehathaway.com <em>in the style of Windows 95</em></h2>
+  <a href="pairs/berkshirehathaway.com--win95/index.html">open reskin</a> · <a href="https://www.berkshirehathaway.com/">original</a></header>
+  <div class="pair">
+    <figure><img loading="lazy" src="pairs/berkshirehathaway.com--win95/before.jpg" alt="berkshirehathaway.com as published"><figcaption>before</figcaption></figure>
+    <figure><img loading="lazy" src="pairs/berkshirehathaway.com--win95/after.jpg" alt="berkshirehathaway.com reskinned in the style of Windows 95"><figcaption>after</figcaption></figure>
+  </div>
+  <ul class="gates"><li class="ok">✓ contrast <span>34 text els</span></li><li class="ok">✓ links <span>18/18</span></li><li class="ok">✓ focus <span>19 stops</span></li><li class="ok">✓ phone <span>375/375px</span></li><li class="ok">✓ motion <span>reduced</span></li>
+  <li class="meta">passed at autofix-1, 1 autofix rules · height ×1.28</li></ul>
+</article>
+<article>
+  <header><h2>w3.org <em>in the style of Stripe</em></h2>
+  <a href="pairs/w3.org-Provider-Style-URI--stripe/index.html">open reskin</a> · <a href="https://www.w3.org/Provider/Style/URI">original</a></header>
+  <div class="pair">
+    <figure><img loading="lazy" src="pairs/w3.org-Provider-Style-URI--stripe/before.jpg" alt="w3.org as published"><figcaption>before</figcaption></figure>
+    <figure><img loading="lazy" src="pairs/w3.org-Provider-Style-URI--stripe/after.jpg" alt="w3.org reskinned in the style of Stripe"><figcaption>after</figcaption></figure>
+  </div>
+  <ul class="gates"><li class="ok">✓ contrast <span>119 text els</span></li><li class="ok">✓ links <span>7/7</span></li><li class="ok">✓ focus <span>8 stops</span></li><li class="ok">✓ phone <span>375/375px</span></li><li class="ok">✓ motion <span>reduced</span></li>
+  <li class="meta">passed at llm-1 · height ×1.49</li></ul>
+</article>
+<article>
+  <header><h2>w3.org <em>in the style of Teenage Engineering</em></h2>
+  <a href="pairs/w3.org-Provider-Style-URI--teenage-engineering/index.html">open reskin</a> · <a href="https://www.w3.org/Provider/Style/URI">original</a></header>
+  <div class="pair">
+    <figure><img loading="lazy" src="pairs/w3.org-Provider-Style-URI--teenage-engineering/before.jpg" alt="w3.org as published"><figcaption>before</figcaption></figure>
+    <figure><img loading="lazy" src="pairs/w3.org-Provider-Style-URI--teenage-engineering/after.jpg" alt="w3.org reskinned in the style of Teenage Engineering"><figcaption>after</figcaption></figure>
+  </div>
+  <ul class="gates"><li class="ok">✓ contrast <span>119 text els</span></li><li class="ok">✓ links <span>7/7</span></li><li class="ok">✓ focus <span>8 stops</span></li><li class="ok">✓ phone <span>375/375px</span></li><li class="ok">✓ motion <span>reduced</span></li>
+  <li class="meta">passed at llm-1 · height ×1.15</li></ul>
+</article>
+<div class="note">
+
+<p>"In the style of" means a reading of a public design language, not the brand itself: no logos, no brand assets, no affiliation with
+or endorsement by any company named here or any site shown. Screenshots are of public pages, logged out, taken 2026-10-30.</p>
+<p>Design reference text: <a href="https://github.com/VoltAgent/awesome-design-md">VoltAgent/awesome-design-md</a>; motion values from awesome-motion-md;
+gate set after hallmark's accessibility floor.</p>
+</div>
+</main></body></html>

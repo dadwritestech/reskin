@@ -1,0 +1,100 @@
+:root {
+}
+body {
+  background-color: var(--rs-canvas);
+  color: var(--rs-ink);
+  font-family: var(--rs-font);
+  font-size: var(--rs-size);
+  line-height: var(--rs-leading);
+}
+a {
+  color: var(--rs-link);
+  text-decoration: none;
+  transition: color var(--rs-quick) var(--rs-ease);
+}
+a:visited {
+  color: var(--rs-link-visited);
+}
+a:hover {
+  color: var(--rs-focus);
+}
+table#hnmain {
+  background-color: var(--rs-surface);
+  border-collapse: collapse;
+  border: 1px solid var(--rs-hairline);
+  border-radius: var(--rs-radius-md);
+  margin: var(--rs-space-6) auto;
+  max-width: var(--rs-measure);
+}
+tr {
+  border-bottom: 1px solid var(--rs-hairline);
+}
+tr.athing.submission:hover {
+  background-color: var(--rs-surface-2);
+}
+td {
+  padding: var(--rs-space-2);
+  border: none;
+}
+td.title {
+  font-weight: var(--rs-heading-weight);
+  letter-spacing: var(--rs-heading-tracking);
+  font-size: var(--rs-text-1);
+}
+td.subtext {
+  color: var(--rs-ink-muted);
+  font-size: var(--rs-text-small);
+}
+span.rank {
+  color: var(--rs-ink-muted);
+  margin-right: var(--rs-space-1);
+}
+span.sitebit.comhead {
+  color: var(--rs-ink-muted);
+  font-family: var(--rs-mono);
+  font-size: var(--rs-text-small);
+}
+span.sitestr {
+  color: var(--rs-ink-muted);
+}
+span.score {
+  color: var(--rs-ink-muted);
+}
+span.age {
+  color: var(--rs-ink-muted);
+}
+.votearrow {
+  color: var(--rs-ink-muted);
+  transition: color var(--rs-quick) var(--rs-ease);
+}
+.votearrow:hover {
+  color: var(--rs-accent);
+}
+center {
+  padding: var(--rs-space-4);
+}
+tr.spacer {
+  border: none;
+  height: var(--rs-space-3);
+}
+tr.morespace {
+  border: none;
+  height: var(--rs-space-6);
+}
+span.pagetop {
+  color: var(--rs-ink-muted);
+  font-size: var(--rs-text-small);
+  letter-spacing: var(--rs-space-1);
+}
+input {
+  background-color: var(--rs-surface);
+  border: 1px solid var(--rs-hairline);
+  color: var(--rs-ink);
+  padding: var(--rs-space-1) var(--rs-space-2);
+  border-radius: var(--rs-radius-sm);
+}
+#bigbox {
+  border: 1px solid var(--rs-hairline);
+  border-radius: var(--rs-radius-md);
+  overflow: hidden;
+}

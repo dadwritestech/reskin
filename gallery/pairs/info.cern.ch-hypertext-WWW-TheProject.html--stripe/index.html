@@ -1,0 +1,267 @@
+<html data-reskin="on"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="reskin 0.1 · in the style of Stripe">
+<style data-rs-skin id="rs-skin">
+/* reskin base: in the style of Stripe */
+:root {
+  --rs-canvas: #ffffff;
+  --rs-surface: #f6f9fc;
+  --rs-surface-2: #eef3f9;
+  --rs-ink: #0d253d;
+  --rs-ink-muted: #4f5f73;
+  --rs-accent: #533afd;
+  --rs-on-accent: #ffffff;
+  --rs-link: #4434d4;
+  --rs-link-visited: #6a2ea8;
+  --rs-hairline: #e3e8ee;
+  --rs-focus: #533afd;
+  --rs-font: 'Sohne', 'SF Pro Text', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --rs-display: 'Sohne', 'SF Pro Display', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --rs-mono: 'Source Code Pro', ui-monospace, Consolas, monospace;
+  --rs-size: 16px;
+  --rs-leading: 1.6;
+  --rs-heading-weight: 400;
+  --rs-heading-tracking: -0.02em;
+  --rs-text-1: calc(var(--rs-size) * 1.333);
+  --rs-text-2: calc(var(--rs-size) * 1.777);
+  --rs-text-3: calc(var(--rs-size) * 2.369);
+  --rs-text-4: calc(var(--rs-size) * 3.157);
+  --rs-text-small: calc(var(--rs-size) / 1.333);
+  --rs-unit: 4px;
+  --rs-space-1: calc(4px * 1);
+  --rs-space-2: calc(4px * 2);
+  --rs-space-3: calc(4px * 3);
+  --rs-space-4: calc(4px * 4);
+  --rs-space-6: calc(4px * 6);
+  --rs-space-8: calc(4px * 8);
+  --rs-gutter: 32px;
+  --rs-measure: 820px;
+  --rs-radius-sm: 4px;
+  --rs-radius-md: 6px;
+  --rs-radius-lg: 8px;
+  --rs-radius-pill: 999px;
+  --rs-shadow-card: 0 13px 27px -5px rgba(50,50,93,.18), 0 8px 16px -8px rgba(0,0,0,.2);
+  --rs-quick: 150ms;
+  --rs-ease: cubic-bezier(0.25, 1, 0.5, 1);
+  color-scheme: light;
+}
+html { background: var(--rs-canvas); color: var(--rs-ink); }
+body {
+  margin: 0 auto; max-width: var(--rs-measure); padding: var(--rs-gutter);
+  background: var(--rs-canvas); color: var(--rs-ink);
+  font-family: var(--rs-font); font-size: var(--rs-size); line-height: var(--rs-leading);
+  overflow-wrap: anywhere; -webkit-font-smoothing: antialiased;
+}
+body * { font-family: inherit; }
+table { font-size: inherit; line-height: inherit; border-collapse: collapse; max-width: 100%; }
+:is(pre, code, kbd, samp, tt) { font-family: var(--rs-mono); font-size: 0.92em; }
+font[color], td, th { color: inherit; }
+[bgcolor], [background] { background: transparent; }
+a { color: var(--rs-link); text-decoration-thickness: 1px; text-underline-offset: 0.2em; }
+a:visited { color: var(--rs-link-visited); }
+:is(h1, h2, h3, h4, h5, h6) {
+  font-family: var(--rs-display); font-weight: var(--rs-heading-weight);
+  letter-spacing: var(--rs-heading-tracking); line-height: 1.2; color: var(--rs-ink);
+}
+h1 { font-size: var(--rs-text-3); } h2 { font-size: var(--rs-text-2); } h3 { font-size: var(--rs-text-1); }
+hr { border: 0; border-top: 1px solid var(--rs-hairline); }
+img, video { max-width: 100%; height: auto; }
+iframe, canvas, svg { max-width: 100%; }
+pre { overflow-x: auto; background: var(--rs-surface); color: var(--rs-ink); padding: calc(var(--rs-unit) * 3); border-radius: var(--rs-radius-md); }
+blockquote { margin-left: 0; padding-left: 1em; border-left: 3px solid var(--rs-hairline); }
+:is(input, select, textarea) {
+  font: inherit; color: var(--rs-ink); background: var(--rs-surface);
+  border: 1px solid var(--rs-hairline); border-radius: var(--rs-radius-sm); padding: 0.3em 0.6em; max-width: 100%;
+}
+:is(button, input[type=submit], input[type=button], input[type=reset]) {
+  font: inherit; color: var(--rs-on-accent); background: var(--rs-accent); border: 1px solid var(--rs-accent);
+  border-radius: var(--rs-radius-pill); padding: 0.35em 0.9em; cursor: pointer;
+}
+:is(button, input, [role=button])[data-rs-bare] { background-color: transparent; border-color: transparent; padding: 0; min-width: 0; color: inherit; }
+::selection { background: var(--rs-accent); color: var(--rs-on-accent); }
+[data-rs-hide] { display: none !important; }
+[data-rs-sr]:not(:focus):not(:focus-within) {
+  position: absolute !important; width: 1px !important; height: 1px !important; overflow: hidden !important;
+  clip: rect(0 0 0 0) !important; clip-path: inset(50%) !important; white-space: nowrap !important;
+}
+@media (max-width: 640px) {
+  body { padding: calc(var(--rs-gutter) / 2); }
+  table { display: block; overflow-x: auto; width: auto !important; }
+  :is(td, th) { white-space: normal; }
+  [width] { max-width: 100%; }
+  pre { white-space: pre; }
+}
+
+/* site icons, kept from the original */
+
+/* --- LLM layer --- */
+:root {
+}
+body {
+  background-color: var(--rs-canvas);
+  color: var(--rs-ink);
+  font-family: var(--rs-font);
+  font-size: var(--rs-size);
+  line-height: var(--rs-leading);
+  max-width: var(--rs-measure);
+  margin: 0 auto;
+  padding: var(--rs-space-8);
+}
+header {
+  padding-bottom: var(--rs-space-8);
+  border-bottom: 1px solid var(--rs-hairline);
+  margin-bottom: var(--rs-space-8);
+}
+h1 {
+  font-family: var(--rs-display);
+  font-size: var(--rs-text-4);
+  font-weight: var(--rs-heading-weight);
+  letter-spacing: var(--rs-heading-tracking);
+  margin-bottom: var(--rs-space-4);
+  color: var(--rs-ink);
+}
+p {
+  margin-bottom: var(--rs-space-6);
+  color: var(--rs-ink-muted);
+}
+a {
+  color: var(--rs-link);
+  text-decoration: none;
+  transition: color var(--rs-quick) var(--rs-ease);
+}
+a:hover {
+  color: var(--rs-link-visited);
+  text-decoration: underline;
+}
+dl {
+  background: var(--rs-surface);
+  border-radius: var(--rs-radius-lg);
+  padding: var(--rs-space-6);
+  box-shadow: var(--rs-shadow-card);
+  border: 1px solid var(--rs-hairline);
+}
+dt {
+  font-weight: var(--rs-heading-weight);
+  color: var(--rs-ink);
+  margin-top: var(--rs-space-4);
+  padding-bottom: var(--rs-space-1);
+  font-size: var(--rs-text-1);
+}
+dd {
+  margin-left: var(--rs-space-4);
+  margin-bottom: var(--rs-space-3);
+  color: var(--rs-ink-muted);
+  font-size: var(--rs-text-small);
+}
+dt a {
+  color: var(--rs-ink);
+  font-weight: var(--rs-heading-weight);
+}
+#nextid {
+  display: inline-block;
+  padding: var(--rs-space-2) var(--rs-space-4);
+  background: var(--rs-surface-2);
+  border-radius: var(--rs-radius-pill);
+  font-size: var(--rs-text-small);
+  color: var(--rs-ink-muted);
+  margin-bottom: var(--rs-space-4);
+}
+dl dt {
+  border-bottom: 1px solid var(--rs-hairline);
+  padding-bottom: var(--rs-space-2);
+}
+dl dt:last-of-type {
+  border-bottom: none;
+}
+dd a {
+  display: inline-block;
+  margin-right: var(--rs-space-2);
+}
+/* --- autofix --- */
+
+/* reskin floor (always last) */
+:focus-visible { outline: 2px solid var(--rs-focus) !important; outline-offset: 2px !important; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+}
+
+</style>
+</head><body><header>
+<title data-rs-hide="">The World Wide Web project</title>
+<nextid n="55">
+</nextid></header>
+
+<h1>World Wide Web</h1>The WorldWideWeb (W3) is a wide-area<a name="0" href="https://info.cern.ch/hypertext/WWW/WhatIs.html">
+hypermedia</a> information retrieval
+initiative aiming to give universal
+access to a large universe of documents.<p>
+Everything there is online about
+W3 is linked directly or indirectly
+to this document, including an <a name="24" href="https://info.cern.ch/hypertext/WWW/Summary.html">executive
+summary</a> of the project, <a name="29" href="https://info.cern.ch/hypertext/WWW/Administration/Mailing/Overview.html">Mailing lists</a>
+, <a name="30" href="https://info.cern.ch/hypertext/WWW/Policy.html">Policy</a> , November's  <a name="34" href="https://info.cern.ch/hypertext/WWW/News/9211.html">W3  news</a> ,
+<a name="41" href="https://info.cern.ch/hypertext/WWW/FAQ/List.html">Frequently Asked Questions</a> .
+</p><dl>
+<dt><a name="44" href="https://info.cern.ch/hypertext/DataSources/Top.html">What's out there?</a>
+</dt><dd> Pointers to the
+world's online information,<a name="45" href="https://info.cern.ch/hypertext/DataSources/bySubject/Overview.html"> subjects</a>
+, <a name="z54" href="https://info.cern.ch/hypertext/DataSources/WWW/Servers.html">W3 servers</a>, etc.
+</dd><dt><a name="46" href="https://info.cern.ch/hypertext/WWW/Help.html">Help</a>
+</dt><dd> on the browser you are using
+</dd><dt><a name="13" href="https://info.cern.ch/hypertext/WWW/Status.html">Software Products</a>
+</dt><dd> A list of W3 project
+components and their current state.
+(e.g. <a name="27" href="https://info.cern.ch/hypertext/WWW/LineMode/Browser.html">Line Mode</a> ,X11 <a name="35" href="https://info.cern.ch/hypertext/WWW/Status.html#35">Viola</a> ,  <a name="26" href="https://info.cern.ch/hypertext/WWW/NeXT/WorldWideWeb.html">NeXTStep</a>
+, <a name="25" href="https://info.cern.ch/hypertext/WWW/Daemon/Overview.html">Servers</a> , <a name="51" href="https://info.cern.ch/hypertext/WWW/Tools/Overview.html">Tools</a> ,<a name="53" href="https://info.cern.ch/hypertext/WWW/MailRobot/Overview.html"> Mail robot</a> ,<a name="52" href="https://info.cern.ch/hypertext/WWW/Status.html#57">
+Library</a> )
+</dd><dt><a name="47" href="https://info.cern.ch/hypertext/WWW/Technical.html">Technical</a>
+</dt><dd> Details of protocols, formats,
+program internals etc
+</dd><dt><a name="40" href="https://info.cern.ch/hypertext/WWW/Bibliography.html">Bibliography</a>
+</dt><dd> Paper documentation
+on  W3 and references.
+</dd><dt><a name="14" href="https://info.cern.ch/hypertext/WWW/People.html">People</a>
+</dt><dd> A list of some people involved
+in the project.
+</dd><dt><a name="15" href="https://info.cern.ch/hypertext/WWW/History.html">History</a>
+</dt><dd> A summary of the history
+of the project.
+</dd><dt><a name="37" href="https://info.cern.ch/hypertext/WWW/Helping.html">How can I help</a> ?
+</dt><dd> If you would like
+to support the web..
+</dd><dt><a name="48" href="https://info.cern.ch/hypertext/README.html">Getting code</a>
+</dt><dd> Getting the code by<a name="49" href="https://info.cern.ch/hypertext/WWW/LineMode/Defaults/Distribution.html">
+anonymous FTP</a> , etc.
+</dd></dl>
+
+<script data-rs-toggle>
+(() => {
+  const html = document.documentElement;
+  const set = (on) => {
+    html.dataset.reskin = on ? 'on' : 'off';
+    document.querySelectorAll('[data-rs-skin]').forEach((s) => (s.media = on ? 'all' : 'not all'));
+    document.querySelectorAll('[data-rs-orig]').forEach((s) => (s.media = on ? 'not all' : s.dataset.rsMedia || 'all'));
+    document.querySelectorAll('[data-rs-style]').forEach((e) => (on ? e.removeAttribute('style') : e.setAttribute('style', e.dataset.rsStyle)));
+    btn.textContent = on ? 'Show original' : 'Show reskin';
+    btn.setAttribute('aria-pressed', String(on));
+  };
+  const host = document.createElement('div');
+  host.id = 'rs-toggle-host';
+  const root = host.attachShadow({ mode: 'open' });
+  root.innerHTML = `<style>
+    :host { all: initial; position: fixed; right: 12px; bottom: 12px; z-index: 2147483647; max-width: calc(100vw - 24px); }
+    .pill { display: flex; gap: 10px; align-items: center; padding: 6px 6px 6px 14px; border-radius: 999px;
+      background: #111; color: #f2f2f2; font: 500 12px/1.2 system-ui, sans-serif; box-shadow: 0 4px 16px rgba(0,0,0,.3); }
+    button { font: inherit; color: #111; background: #f2f2f2; border: 0; border-radius: 999px; padding: 6px 12px; cursor: pointer; }
+    button:focus-visible { outline: 2px solid #f2f2f2; outline-offset: 2px; }
+    @media (max-width: 420px) { .label { display: none; } }
+  </style><div class="pill"><span class="label">reskin · in the style of Stripe · not affiliated</span><button type="button"></button></div>`;
+  const btn = root.querySelector('button');
+  btn.addEventListener('click', () => set(html.dataset.reskin !== 'on'));
+  addEventListener('keydown', (e) => { if (e.altKey && e.shiftKey && e.code === 'KeyR') set(html.dataset.reskin !== 'on'); });
+  document.body.appendChild(host);
+  window.__reskin = set;
+  set(html.dataset.reskin !== 'off');
+})();
+</script></body></html>

@@ -1,0 +1,98 @@
+:root {
+}
+body {
+  background-color: var(--rs-canvas);
+  color: var(--rs-ink);
+  font-family: var(--rs-font);
+  font-size: var(--rs-size);
+  line-height: var(--rs-leading);
+  max-width: var(--rs-measure);
+  margin: 0 auto;
+  padding: var(--rs-space-8);
+}
+p {
+  margin-bottom: var(--rs-space-4);
+  color: var(--rs-ink);
+}
+hr {
+  border: 0;
+  border-top: 1px solid var(--rs-hairline);
+  margin: var(--rs-space-6) 0;
+}
+center {
+  display: block;
+  text-align: center;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--rs-surface);
+  border: 1px solid var(--rs-hairline);
+  border-radius: var(--rs-radius-md);
+  overflow: hidden;
+  margin: var(--rs-space-6) 0;
+}
+tbody tr {
+  border-bottom: 1px solid var(--rs-hairline);
+  transition: background-color var(--rs-quick) var(--rs-ease);
+}
+tbody tr:last-child {
+  border-bottom: none;
+}
+tbody tr:hover {
+  background-color: var(--rs-surface-2);
+}
+td {
+  padding: var(--rs-space-2) var(--rs-space-4);
+  vertical-align: middle;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  text-align: left;
+}
+li {
+  padding: var(--rs-space-1) 0;
+}
+a {
+  color: var(--rs-link);
+  text-decoration: none;
+  transition: color var(--rs-quick) var(--rs-ease);
+}
+a:hover {
+  color: var(--rs-focus);
+}
+b {
+  font-weight: var(--rs-heading-weight);
+  letter-spacing: var(--rs-heading-tracking);
+  color: var(--rs-ink);
+}
+dl {
+  background-color: var(--rs-surface);
+  padding: var(--rs-space-6);
+  border-radius: var(--rs-radius-md);
+  border: 1px solid var(--rs-hairline);
+}
+dl dt {
+  font-weight: var(--rs-heading-weight);
+  margin-bottom: var(--rs-space-1);
+}
+dl dd {
+  margin-left: var(--rs-space-2);
+  margin-bottom: var(--rs-space-4);
+  color: var(--rs-ink-muted);
+}
+img {
+  max-width: 100%;
+  border-radius: var(--rs-radius-sm);
+  border: 1px solid var(--rs-hairline);
+}
+div {
+  margin-bottom: var(--rs-space-6);
+}
+td:nth-child(2) {
+  color: var(--rs-ink-muted);
+  font-size: var(--rs-text-small);
+}

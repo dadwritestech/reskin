@@ -1,0 +1,108 @@
+:root {
+}
+body {
+  background-color: var(--rs-canvas);
+  color: var(--rs-ink);
+  font-family: var(--rs-font);
+  font-size: var(--rs-size);
+  line-height: var(--rs-leading);
+  max-width: var(--rs-measure);
+  margin: 0 auto;
+  padding: var(--rs-space-8);
+}
+h1 {
+  font-family: var(--rs-display);
+  font-size: var(--rs-text-4);
+  font-weight: var(--rs-heading-weight);
+  letter-spacing: var(--rs-heading-tracking);
+  margin-bottom: var(--rs-space-8);
+  color: var(--rs-ink);
+}
+h2 {
+  font-family: var(--rs-display);
+  font-size: var(--rs-text-3);
+  font-weight: var(--rs-heading-weight);
+  letter-spacing: var(--rs-heading-tracking);
+  margin-top: var(--rs-space-8);
+  margin-bottom: var(--rs-space-4);
+  color: var(--rs-ink);
+}
+h3 {
+  font-family: var(--rs-display);
+  font-size: var(--rs-text-2);
+  font-weight: var(--rs-heading-weight);
+  letter-spacing: var(--rs-heading-tracking);
+  margin-top: var(--rs-space-6);
+  color: var(--rs-ink);
+}
+h4 {
+  font-family: var(--rs-display);
+  font-size: var(--rs-text-1);
+  font-weight: var(--rs-heading-weight);
+  margin-top: var(--rs-space-4);
+  color: var(--rs-ink);
+}
+p {
+  margin-bottom: var(--rs-space-4);
+  color: var(--rs-ink-muted);
+}
+a {
+  color: var(--rs-link);
+  text-decoration: none;
+  transition: color var(--rs-quick) var(--rs-ease);
+}
+a:hover {
+  color: var(--rs-link-visited);
+}
+code, tt {
+  font-family: var(--rs-mono);
+  background-color: var(--rs-surface);
+  padding: var(--rs-space-1) var(--rs-space-2);
+  border-radius: var(--rs-radius-sm);
+  font-size: var(--rs-text-small);
+  color: var(--rs-ink);
+}
+blockquote {
+  margin: var(--rs-space-8) 0;
+  padding: var(--rs-space-6);
+  background-color: var(--rs-surface);
+  border-left: 4px solid var(--rs-surface-2);
+  border-radius: var(--rs-radius-md);
+}
+blockquote p {
+  margin-bottom: 0;
+  font-style: italic;
+  color: var(--rs-ink);
+}
+ul {
+  margin-bottom: var(--rs-space-6);
+  padding-left: var(--rs-space-4);
+}
+li {
+  margin-bottom: var(--rs-space-2);
+  color: var(--rs-ink-muted);
+}
+hr {
+  border: 0;
+  border-top: 1px solid var(--rs-hairline);
+  margin: var(--rs-space-8) 0;
+}
+address {
+  font-style: normal;
+  font-size: var(--rs-text-small);
+  color: var(--rs-ink-muted);
+  margin-top: var(--rs-space-8);
+}
+b {
+  color: var(--rs-ink);
+  font-weight: 600;
+}
+em {
+  color: var(--rs-ink-muted);
+}
+img {
+  max-width: 100%;
+  border-radius: var(--rs-radius-md);
+  box-shadow: var(--rs-shadow-card);
+  margin: var(--rs-space-4) 0;
+}

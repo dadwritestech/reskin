@@ -1,0 +1,523 @@
+{
+ "url": "https://www.usa.gov/",
+ "finalUrl": "https://www.usa.gov/",
+ "title": "Making government services easier to find | USAGov",
+ "style": "win95",
+ "styleTitle": "in the style of Windows 95",
+ "model": "gemma-4-12b",
+ "pass": true,
+ "generatedAt": "2026-10-30T09:06:39.335Z",
+ "density": 1.05,
+ "autofixRules": 2,
+ "links": {
+  "original": 77,
+  "visible": 53
+ },
+ "gates": {
+  "contrast": {
+   "pass": true,
+   "checked": 98,
+   "unknown": 0,
+   "failures": []
+  },
+  "links": {
+   "pass": true,
+   "original": 77,
+   "present": 77,
+   "originallyVisible": 53,
+   "failures": []
+  },
+  "focus": {
+   "pass": true,
+   "checked": 30,
+   "failures": []
+  },
+  "phone": {
+   "pass": true,
+   "scrollWidth": 375,
+   "viewport": 375,
+   "failures": []
+  },
+  "motion": {
+   "pass": true,
+   "failures": []
+  }
+ },
+ "history": [
+  {
+   "step": "llm-1",
+   "pass": false,
+   "issues": 4,
+   "dropped": [
+    {
+     "decl": "--rs-canvas: #088888",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-surface: #c0c0c0",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-surface-2: #dfdfdf",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-ink: #000000",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-ink-muted: #2b2b2b",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-accent: #000080",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-on-accent: #ffffff",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-link: #0000aa",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-link-visited: #551a8b",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-hairline: #808080",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-focus: #000000",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-font: 'MS Sans Serif', 'Microsoft Sans Serif', Tahoma, Geneva, Verdana, sans-serif",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-display: 'MS Sans Serif', 'Microsoft Sans Serif', Tahoma, Geneva, Verdana, sans-serif",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-mono: 'Fixedsys', 'Courier New', monospace",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-size: 13px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-leading: 1.4",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-heading-weight: 700",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-heading-tracking: 0",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-1: calc(var(--rs-size) * 1.200)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-2: calc(var(--rs-size) * 1.440)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-3: calc(var(--rs-size) * 1.728)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-4: calc(var(--rs-size) * 2.074)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-small: calc(var(--rs-size) / 1.2)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-unit: 2px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-1: calc(2px * 1)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-2: calc(2px * 2)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-3: calc(2px * 3)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-4: calc(2px * 4)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-6: calc(2px * 6)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-8: calc(2px * 8)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-gutter: 12px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-measure: 900px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-sm: 0px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-md: 0px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-lg: 0px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-pill: 0px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-shadow-card: inset -1px -1px #0a0a0a, inset 1px 1px #ffffff, inset -2px -2px #808080, inset 2px 2px #dfdfdf",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-quick: 0ms",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-ease: linear",
+     "why": "tokens are fixed"
+    }
+   ],
+   "ms": 58313,
+   "cached": false,
+   "finish": "stop",
+   "gates": {
+    "contrast": {
+     "pass": false,
+     "checked": 98,
+     "unknown": 0,
+     "failures": [
+      {
+       "selector": "a.usa-skipnav.usa-sr-only",
+       "fg": "#0000aa",
+       "bg": "#088888",
+       "ratio": 3.09,
+       "need": 4.5,
+       "count": 1,
+       "sample": "Skip to main content"
+      }
+     ]
+    },
+    "links": {
+     "pass": true,
+     "original": 77,
+     "present": 77,
+     "originallyVisible": 53,
+     "failures": []
+    },
+    "focus": {
+     "pass": false,
+     "checked": 30,
+     "failures": [
+      {
+       "selector": "div.usa-banner__header > div.usa-banner__inner > button.usa-accordion__button.usa-banner__button",
+       "bg": "#000080",
+       "outline": "solid 2px #000000",
+       "outlineRatio": 1.31,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      }
+     ]
+    },
+    "phone": {
+     "pass": true,
+     "scrollWidth": 375,
+     "viewport": 375,
+     "failures": []
+    },
+    "motion": {
+     "pass": true,
+     "failures": []
+    }
+   }
+  },
+  {
+   "step": "llm-2",
+   "pass": false,
+   "issues": 4,
+   "dropped": [
+    {
+     "decl": "--rs-canvas: #088888",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-surface: #c0c0c0",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-surface-2: #dfdfdf",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-ink: #000000",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-ink-muted: #2b2b2b",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-accent: #000080",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-on-accent: #ffffff",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-link: #0000aa",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-link-visited: #551a8b",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-hairline: #808080",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-focus: #000000",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-font: 'MS Sans Serif', 'Microsoft Sans Serif', Tahoma, Geneva, Verdana, sans-serif",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-display: 'MS Sans Serif', 'Microsoft Sans Serif', Tahoma, Geneva, Verdana, sans-serif",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-mono: 'Fixedsys', 'Courier New', monospace",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-size: 13px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-leading: 1.4",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-heading-weight: 700",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-heading-tracking: 0",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-1: calc(var(--rs-size) * 1.200)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-2: calc(var(--rs-size) * 1.440)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-3: calc(var(--rs-size) * 1.728)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-4: calc(var(--rs-size) * 2.074)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-small: calc(var(--rs-size) / 1.2)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-unit: 2px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-1: calc(2px * 1)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-2: calc(2px * 2)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-3: calc(2px * 3)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-4: calc(2px * 4)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-6: calc(2px * 6)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-8: calc(2px * 8)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-gutter: 12px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-measure: 900px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-sm: 0px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-md: 0px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-lg: 0px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-pill: 0px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-shadow-card: inset -1px -1px #0a0a0a, inset 1px 1px #ffffff, inset -2px -2px #808080, inset 2px 2px #dfdfdf",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-quick: 0ms",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-ease: linear",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "outline: var(--rs-unit) solid var(--rs-focus)",
+     "why": "outline is owned by the focus floor"
+    },
+    {
+     "decl": "outline-offset: var(--rs-space-1)",
+     "why": "outline is owned by the focus floor"
+    }
+   ],
+   "ms": 60564,
+   "cached": false,
+   "finish": "stop",
+   "gates": {
+    "contrast": {
+     "pass": false,
+     "checked": 98,
+     "unknown": 0,
+     "failures": [
+      {
+       "selector": "a.usa-skipnav.usa-sr-only",
+       "fg": "#ffffff",
+       "bg": "#088888",
+       "ratio": 4.3,
+       "need": 4.5,
+       "count": 1,
+       "sample": "Skip to main content"
+      }
+     ]
+    },
+    "links": {
+     "pass": true,
+     "original": 77,
+     "present": 77,
+     "originallyVisible": 53,
+     "failures": []
+    },
+    "focus": {
+     "pass": false,
+     "checked": 30,
+     "failures": [
+      {
+       "selector": "div.usa-banner__header > div.usa-banner__inner > button.usa-accordion__button.usa-banner__button",
+       "bg": "#000080",
+       "outline": "solid 2px #000000",
+       "outlineRatio": 1.31,
+       "shadowOk": false,
+       "visible": true,
+       "ok": false
+      }
+     ]
+    },
+    "phone": {
+     "pass": true,
+     "scrollWidth": 375,
+     "viewport": 375,
+     "failures": []
+    },
+    "motion": {
+     "pass": true,
+     "failures": []
+    }
+   }
+  },
+  {
+   "step": "autofix-1",
+   "pass": true,
+   "issues": 0,
+   "gates": {
+    "contrast": {
+     "pass": true,
+     "checked": 98,
+     "unknown": 0,
+     "failures": []
+    },
+    "links": {
+     "pass": true,
+     "original": 77,
+     "present": 77,
+     "originallyVisible": 53,
+     "failures": []
+    },
+    "focus": {
+     "pass": true,
+     "checked": 30,
+     "failures": []
+    },
+    "phone": {
+     "pass": true,
+     "scrollWidth": 375,
+     "viewport": 375,
+     "failures": []
+    },
+    "motion": {
+     "pass": true,
+     "failures": []
+    }
+   }
+  }
+ ]
+}

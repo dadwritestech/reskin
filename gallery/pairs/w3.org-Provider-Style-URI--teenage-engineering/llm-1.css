@@ -1,0 +1,108 @@
+:root {
+}
+body {
+  background-color: var(--rs-canvas);
+  color: var(--rs-ink);
+  font-family: var(--rs-font);
+  font-size: var(--rs-size);
+  line-height: var(--rs-leading);
+  max-width: var(--rs-measure);
+  margin: 0 auto;
+  padding: var(--rs-space-8);
+}
+h1, h2, h3, h4 {
+  font-family: var(--rs-display);
+  font-weight: var(--rs-heading-weight);
+  letter-spacing: var(--rs-heading-tracking);
+  color: var(--rs-ink);
+  margin-bottom: var(--rs-space-4);
+}
+h1 {
+  font-size: var(--rs-text-4);
+  border-bottom: 1px solid var(--rs-hairline);
+  padding-bottom: var(--rs-space-2);
+}
+h2 {
+  font-size: var(--rs-text-3);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+h3 {
+  font-size: var(--rs-text-2);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+h4 {
+  font-size: var(--rs-text-1);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--rs-ink-muted);
+}
+p {
+  margin-bottom: var(--rs-space-4);
+}
+a {
+  color: var(--rs-link);
+  text-decoration: underline;
+  text-decoration-color: var(--rs-accent);
+  text-underline-offset: 2px;
+  transition: color var(--rs-quick) var(--rs-ease);
+}
+a:hover {
+  color: var(--rs-accent);
+}
+code, tt {
+  font-family: var(--rs-mono);
+  background: var(--rs-surface);
+  padding: 0 var(--rs-space-2);
+  border: 1px solid var(--rs-hairline);
+  border-radius: var(--rs-radius-sm);
+  font-size: var(--rs-text-small);
+}
+blockquote {
+  margin: var(--rs-space-6) 0;
+  padding: var(--rs-space-4);
+  background: var(--rs-surface-2);
+  border-left: 3px solid var(--rs-accent);
+  font-style: italic;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: var(--rs-space-6);
+}
+li {
+  padding: var(--rs-space-2) 0;
+  border-bottom: 1px solid var(--rs-hairline);
+  display: flex;
+  align-items: baseline;
+}
+li:last-child {
+  border-bottom: none;
+}
+hr {
+  border: 0;
+  border-top: 1px solid var(--rs-hairline);
+  margin: var(--rs-space-8) 0;
+}
+address {
+  font-family: var(--rs-mono);
+  font-size: var(--rs-text-small);
+  color: var(--rs-ink-muted);
+  border-top: 1px solid var(--rs-hairline);
+  padding-top: var(--rs-space-4);
+  margin-top: var(--rs-space-8);
+}
+i, em {
+  color: var(--rs-ink-muted);
+  font-style: normal;
+}
+b {
+  font-weight: var(--rs-heading-weight);
+}
+h4::before {
+  font-family: var(--rs-mono);
+  font-size: var(--rs-text-small);
+  color: var(--rs-accent);
+  margin-right: var(--rs-space-1);
+}

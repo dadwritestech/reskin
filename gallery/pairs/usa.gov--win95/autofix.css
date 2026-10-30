@@ -1,0 +1,2 @@
+html body a.usa-skipnav.usa-sr-only { color: var(--rs-ink) !important; opacity: 1 !important; }
+html body div.usa-banner__header > div.usa-banner__inner > button.usa-accordion__button.usa-banner__button:focus-visible { outline-color: var(--rs-on-accent) !important; }

@@ -1,0 +1,1755 @@
+{
+ "url": "https://en.wikipedia.org/wiki/Typography?banner=none",
+ "finalUrl": "https://en.wikipedia.org/wiki/Typography?banner=none",
+ "title": "Typography - Wikipedia",
+ "style": "teenage-engineering",
+ "styleTitle": "in the style of Teenage Engineering",
+ "model": "gemma-4-12b",
+ "pass": true,
+ "generatedAt": "2026-10-30T09:04:11.669Z",
+ "density": 1.09,
+ "autofixRules": 0,
+ "links": {
+  "original": 1251,
+  "visible": 616
+ },
+ "gates": {
+  "contrast": {
+   "pass": true,
+   "checked": 1144,
+   "unknown": 0,
+   "failures": []
+  },
+  "links": {
+   "pass": true,
+   "original": 1251,
+   "present": 1251,
+   "originallyVisible": 616,
+   "failures": []
+  },
+  "focus": {
+   "pass": true,
+   "checked": 30,
+   "failures": []
+  },
+  "phone": {
+   "pass": true,
+   "scrollWidth": 375,
+   "viewport": 375,
+   "failures": []
+  },
+  "motion": {
+   "pass": true,
+   "failures": []
+  }
+ },
+ "history": [
+  {
+   "step": "llm-1",
+   "pass": false,
+   "issues": 147,
+   "dropped": [
+    {
+     "decl": "--rs-canvas: #e9e8e4",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-surface: #f5f4f0",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-surface-2: #d9d8d3",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-ink: #111111",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-ink-muted: #4a4a48",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-accent: #c43c00",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-on-accent: #ffffff",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-link: #111111",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-link-visited: #3d3d3b",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-hairline: #b9b8b2",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-focus: #c43c00",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-font: 'Helvetica Neue', Helvetica, Arial, sans-serif",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-display: 'Helvetica Neue', Helvetica, Arial, sans-serif",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-mono: 'IBM Plex Mono', 'JetBrains Mono', ui-monospace, Consolas, monospace",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-size: 14px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-leading: 1.5",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-heading-weight: 500",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-heading-tracking: -0.01em",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-1: calc(var(--rs-size) * 1.300)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-2: calc(var(--rs-size) * 1.690)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-3: calc(var(--rs-size) * 2.197)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-4: calc(var(--rs-size) * 2.856)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-small: calc(var(--rs-size) / 1.3)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-unit: 4px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-1: calc(4px * 1)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-2: calc(4px * 2)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-3: calc(4px * 3)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-4: calc(4px * 4)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-6: calc(4px * 6)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-8: calc(4px * 8)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-gutter: 20px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-measure: 960px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-sm: 2px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-md: 4px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-lg: 6px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-pill: 999px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-shadow-card: none",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-quick: 120ms",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-ease: cubic-bezier(0.2, 0, 0, 1)",
+     "why": "tokens are fixed"
+    }
+   ],
+   "ms": 61518,
+   "cached": true,
+   "finish": "stop",
+   "gates": {
+    "contrast": {
+     "pass": false,
+     "checked": 1144,
+     "unknown": 0,
+     "failures": [
+      {
+       "selector": "#mwKw",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwLA",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwMQ",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwMg",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwNQ",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwNg",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwQQ",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwQg",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwRQ",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwRg",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwUA",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwUQ",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwaQ",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwag",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwbg",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwbw",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwdQ",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwdg",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mweQ",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mweg",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwfQ",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwfg",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwgg",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwgw",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwhg",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwhw",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwig",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwiw",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwjw",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwkA",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwlg",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwlw",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwmg",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwmw",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwng",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwnw",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwog",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwow",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwqA",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwqQ",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwrA",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwrQ",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwsA",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwsQ",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwtQ",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwtg",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwuQ",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwug",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwvg",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwvw",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwwg",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwww",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwyg",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwyw",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mw0g",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mw0w",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mw2Q",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mw2g",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mw5A",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mw5Q",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mw6A",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mw6Q",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mw7A",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mw7Q",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mw8A",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mw8Q",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mw9Q",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mw9g",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mw-g",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mw-w",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAQU",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAQY",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAQw",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAQ0",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwARA",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwARE",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwARc",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwARg",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwARs",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwARw",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwASE",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwASI",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwASg",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwASk",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwASw",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAS0",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwATA",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwATE",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwATY",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwATc",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwATs",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwATw",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAUI",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAUM",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAUc",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAUg",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAUw",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAU0",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAVA",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAVE",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAVQ",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAVU",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAVk",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAVo",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAWI",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAWM",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAW8",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAXA",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAXM",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAXQ",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAa0",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAa4",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAbo",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAbs",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAcA",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAcE",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAcg",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAck",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAc8",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAdA",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAd4",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAd8",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAeU",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAeY",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAfs",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAfw",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAiE",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAiI",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAic",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAig",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAis",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAiw",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAl0",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAl4",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAmE",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAmI",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAmc",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAmg",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAmw",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAm0",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAnA",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAnE",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAoI",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAoM",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      },
+      {
+       "selector": "#mwAoc",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "["
+      },
+      {
+       "selector": "#mwAog",
+       "fg": "#b9b8b2",
+       "bg": "#f5f4f0",
+       "ratio": 1.81,
+       "need": 4.5,
+       "count": 1,
+       "sample": "]"
+      }
+     ]
+    },
+    "links": {
+     "pass": true,
+     "original": 1251,
+     "present": 1251,
+     "originallyVisible": 616,
+     "failures": []
+    },
+    "focus": {
+     "pass": true,
+     "checked": 30,
+     "failures": []
+    },
+    "phone": {
+     "pass": true,
+     "scrollWidth": 375,
+     "viewport": 375,
+     "failures": []
+    },
+    "motion": {
+     "pass": true,
+     "failures": []
+    }
+   }
+  },
+  {
+   "step": "llm-2",
+   "pass": true,
+   "issues": 0,
+   "dropped": [
+    {
+     "decl": "--rs-canvas: #e9e8e4",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-surface: #f5f4f0",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-surface-2: #d9d8d3",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-ink: #111111",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-ink-muted: #4a4a48",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-accent: #c43c00",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-on-accent: #ffffff",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-link: #111111",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-link-visited: #3d3d3b",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-hairline: #b9b8b2",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-focus: #c43c00",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-font: 'Helvetica Neue', Helvetica, Arial, sans-serif",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-display: 'Helvetica Neue', Helvetica, Arial, sans-serif",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-mono: 'IBM Plex Mono', 'JetBrains Mono', ui-monospace, Consolas, monospace",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-size: 14px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-leading: 1.5",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-heading-weight: 500",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-heading-tracking: -0.01em",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-1: calc(var(--rs-size) * 1.300)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-2: calc(var(--rs-size) * 1.690)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-3: calc(var(--rs-size) * 2.197)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-4: calc(var(--rs-size) * 2.856)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-small: calc(var(--rs-size) / 1.3)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-unit: 4px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-1: calc(4px * 1)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-2: calc(4px * 2)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-3: calc(4px * 3)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-4: calc(4px * 4)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-6: calc(4px * 6)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-8: calc(4px * 8)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-gutter: 20px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-measure: 960px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-sm: 2px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-md: 4px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-lg: 6px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-pill: 999px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-shadow-card: none",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-quick: 120ms",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-ease: cubic-bezier(0.2, 0, 0, 1)",
+     "why": "tokens are fixed"
+    }
+   ],
+   "ms": 62024,
+   "cached": true,
+   "finish": "stop",
+   "gates": {
+    "contrast": {
+     "pass": true,
+     "checked": 1144,
+     "unknown": 0,
+     "failures": []
+    },
+    "links": {
+     "pass": true,
+     "original": 1251,
+     "present": 1251,
+     "originallyVisible": 616,
+     "failures": []
+    },
+    "focus": {
+     "pass": true,
+     "checked": 30,
+     "failures": []
+    },
+    "phone": {
+     "pass": true,
+     "scrollWidth": 375,
+     "viewport": 375,
+     "failures": []
+    },
+    "motion": {
+     "pass": true,
+     "failures": []
+    }
+   }
+  }
+ ]
+}

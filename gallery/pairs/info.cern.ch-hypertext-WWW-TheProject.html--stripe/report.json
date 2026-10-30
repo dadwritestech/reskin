@@ -1,0 +1,244 @@
+{
+ "url": "https://info.cern.ch/hypertext/WWW/TheProject.html",
+ "finalUrl": "https://info.cern.ch/hypertext/WWW/TheProject.html",
+ "title": "The World Wide Web project",
+ "style": "stripe",
+ "styleTitle": "in the style of Stripe",
+ "model": "gemma-4-12b",
+ "pass": true,
+ "generatedAt": "2026-10-30T09:06:41.954Z",
+ "density": 1.42,
+ "autofixRules": 0,
+ "links": {
+  "original": 25,
+  "visible": 25
+ },
+ "gates": {
+  "contrast": {
+   "pass": true,
+   "checked": 40,
+   "unknown": 0,
+   "failures": []
+  },
+  "links": {
+   "pass": true,
+   "original": 25,
+   "present": 25,
+   "originallyVisible": 25,
+   "failures": []
+  },
+  "focus": {
+   "pass": true,
+   "checked": 26,
+   "failures": []
+  },
+  "phone": {
+   "pass": true,
+   "scrollWidth": 375,
+   "viewport": 375,
+   "failures": []
+  },
+  "motion": {
+   "pass": true,
+   "failures": []
+  }
+ },
+ "history": [
+  {
+   "step": "llm-1",
+   "pass": true,
+   "issues": 0,
+   "dropped": [
+    {
+     "decl": "--rs-canvas: #ffffff",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-surface: #f6f9fc",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-surface-2: #eef3f9",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-ink: #0d253d",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-ink-muted: #4f5f73",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-accent: #533afd",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-on-accent: #ffffff",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-link: #4434d4",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-link-visited: #6a2ea8",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-hairline: #e3e8ee",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-focus: #533afd",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-font: 'Sohne', 'SF Pro Text', system-ui, -apple-system, 'Segoe UI', sans-serif",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-display: 'Sohne', 'SF Pro Display', system-ui, -apple-system, 'Segoe UI', sans-serif",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-mono: 'Source Code Pro', ui-monospace, Consolas, monospace",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-size: 16px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-leading: 1.6",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-heading-weight: 400",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-heading-tracking: -0.02em",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-1: calc(var(--rs-size) * 1.333)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-2: calc(var(--rs-size) * 1.777)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-3: calc(var(--rs-size) * 2.369)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-4: calc(var(--rs-size) * 3.157)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-small: calc(var(--rs-size) / 1.333)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-unit: 4px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-1: calc(4px * 1)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-2: calc(4px * 2)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-3: calc(4px * 3)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-4: calc(4px * 4)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-6: calc(4px * 6)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-8: calc(4px * 8)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-gutter: 32px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-measure: 820px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-sm: 4px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-md: 6px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-lg: 8px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-pill: 999px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-shadow-card: 0 13px 27px -5px rgba(50,50,93,.18), 0 8px 16px -8px rgba(0,0,0,.2)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-quick: 150ms",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-ease: cubic-bezier(0.25, 1, 0.5, 1)",
+     "why": "tokens are fixed"
+    }
+   ],
+   "ms": 44693,
+   "cached": true,
+   "finish": "stop",
+   "gates": {
+    "contrast": {
+     "pass": true,
+     "checked": 40,
+     "unknown": 0,
+     "failures": []
+    },
+    "links": {
+     "pass": true,
+     "original": 25,
+     "present": 25,
+     "originallyVisible": 25,
+     "failures": []
+    },
+    "focus": {
+     "pass": true,
+     "checked": 26,
+     "failures": []
+    },
+    "phone": {
+     "pass": true,
+     "scrollWidth": 375,
+     "viewport": 375,
+     "failures": []
+    },
+    "motion": {
+     "pass": true,
+     "failures": []
+    }
+   }
+  }
+ ]
+}

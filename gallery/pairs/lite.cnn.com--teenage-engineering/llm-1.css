@@ -1,0 +1,113 @@
+:root {
+}
+body {
+  background-color: var(--rs-canvas);
+  color: var(--rs-ink);
+  font-family: var(--rs-font);
+  font-size: var(--rs-size);
+  line-height: var(--rs-leading);
+}
+header.header--lite {
+  background-color: var(--rs-surface);
+  border-bottom: 1px solid var(--rs-hairline);
+  padding: var(--rs-space-4) var(--rs-gutter);
+}
+a.title {
+  font-family: var(--rs-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: var(--rs-heading-weight);
+}
+a {
+  color: var(--rs-link);
+  text-decoration: underline;
+  text-decoration-color: var(--rs-accent);
+  text-underline-offset: 2px;
+  transition: border-color var(--rs-quick) var(--rs-ease);
+}
+a:hover {
+  color: var(--rs-accent);
+}
+.layout-homepage__lite {
+  max-width: var(--rs-measure);
+  margin: 0 auto;
+  padding: var(--rs-space-8);
+}
+p.title {
+  font-family: var(--rs-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: var(--rs-text-2);
+  border-bottom: 1px solid var(--rs-hairline);
+  padding-bottom: var(--rs-space-2);
+  margin-bottom: var(--rs-space-4);
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid var(--rs-hairline);
+}
+li.card--lite {
+  border-bottom: 1px solid var(--rs-hairline);
+  padding: var(--rs-space-3) var(--rs-gutter);
+  background-color: var(--rs-surface);
+  max-width: 100%;
+}
+li.card--lite:last-child {
+  border-bottom: none;
+}
+li.card--lite a {
+  display: block;
+  text-decoration: none;
+}
+span {
+  font-family: var(--rs-mono);
+  font-size: var(--rs-text-small);
+  color: var(--rs-ink-muted);
+  letter-spacing: 0.08em;
+}
+footer.footer--lite {
+  background-color: var(--rs-surface-2);
+  padding: var(--rs-space-8) var(--rs-gutter);
+  border-top: 1px solid var(--rs-hairline);
+  font-family: var(--rs-mono);
+  font-size: var(--rs-text-small);
+}
+button {
+  background-color: var(--rs-ink);
+  color: var(--rs-on-accent);
+  border: 1px solid var(--rs-ink);
+  border-radius: var(--rs-radius-sm);
+  padding: var(--rs-space-2) var(--rs-space-4);
+  font-family: var(--rs-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  transition: background-color var(--rs-quick) var(--rs-ease);
+}
+button:hover {
+  background-color: var(--rs-accent);
+  border-color: var(--rs-accent);
+}
+.ot-sdk-columns.has-reject-all-button {
+  background-color: var(--rs-surface);
+  border: 1px solid var(--rs-hairline);
+  padding: var(--rs-space-6);
+}
+h2, h3 {
+  font-family: var(--rs-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: var(--rs-heading-weight);
+  margin-bottom: var(--rs-space-2);
+}
+.ot-tcf2-vendor-count.ot-text-bold {
+  color: var(--rs-accent);
+  font-weight: bold;
+}
+div.ot-dpd-container {
+  border: 1px solid var(--rs-hairline);
+  padding: var(--rs-space-4);
+  background-color: var(--rs-surface-2);
+}

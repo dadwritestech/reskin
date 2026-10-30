@@ -1,0 +1,252 @@
+{
+ "url": "https://text.npr.org/",
+ "finalUrl": "https://text.npr.org/",
+ "title": "NPR : National Public Radio",
+ "style": "vercel",
+ "styleTitle": "in the style of Vercel",
+ "model": "gemma-4-12b",
+ "pass": true,
+ "generatedAt": "2026-10-30T09:11:19.018Z",
+ "density": 1.5,
+ "autofixRules": 0,
+ "links": {
+  "original": 28,
+  "visible": 28
+ },
+ "gates": {
+  "contrast": {
+   "pass": true,
+   "checked": 35,
+   "unknown": 0,
+   "failures": []
+  },
+  "links": {
+   "pass": true,
+   "original": 28,
+   "present": 28,
+   "originallyVisible": 28,
+   "failures": []
+  },
+  "focus": {
+   "pass": true,
+   "checked": 29,
+   "failures": []
+  },
+  "phone": {
+   "pass": true,
+   "scrollWidth": 375,
+   "viewport": 375,
+   "failures": []
+  },
+  "motion": {
+   "pass": true,
+   "failures": []
+  }
+ },
+ "history": [
+  {
+   "step": "llm-1",
+   "pass": true,
+   "issues": 0,
+   "dropped": [
+    {
+     "decl": "--rs-canvas: #ffffff",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-surface: #fafafa",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-surface-2: #f2f2f2",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-ink: #171717",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-ink-muted: #5c5c5c",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-accent: #171717",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-on-accent: #ffffff",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-link: #0060df",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-link-visited: #6b2bb5",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-hairline: #eaeaea",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-focus: #0070f3",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-font: Geist, Inter, system-ui, -apple-system, 'Segoe UI', sans-serif",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-display: Geist, Inter, system-ui, -apple-system, 'Segoe UI', sans-serif",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-mono: 'Geist Mono', ui-monospace, Consolas, monospace",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-size: 15px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-leading: 1.6",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-heading-weight: 600",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-heading-tracking: -0.04em",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-1: calc(var(--rs-size) * 1.250)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-2: calc(var(--rs-size) * 1.563)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-3: calc(var(--rs-size) * 1.953)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-4: calc(var(--rs-size) * 2.441)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-text-small: calc(var(--rs-size) / 1.25)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-unit: 4px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-1: calc(4px * 1)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-2: calc(4px * 2)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-3: calc(4px * 3)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-4: calc(4px * 4)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-6: calc(4px * 6)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-space-8: calc(4px * 8)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-gutter: 24px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-measure: 880px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-sm: 4px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-md: 6px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-lg: 12px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-radius-pill: 999px",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-shadow-card: 0 0 0 1px rgba(0,0,0,.08), 0 2px 4px rgba(0,0,0,.04)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-quick: 150ms",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "--rs-ease: cubic-bezier(0.4, 0, 0.2, 1)",
+     "why": "tokens are fixed"
+    },
+    {
+     "decl": "outline: 2px solid var(--rs-focus)",
+     "why": "outline is owned by the focus floor"
+    },
+    {
+     "decl": "outline-offset: 2px",
+     "why": "outline is owned by the focus floor"
+    }
+   ],
+   "ms": 54071,
+   "cached": false,
+   "finish": "stop",
+   "gates": {
+    "contrast": {
+     "pass": true,
+     "checked": 35,
+     "unknown": 0,
+     "failures": []
+    },
+    "links": {
+     "pass": true,
+     "original": 28,
+     "present": 28,
+     "originallyVisible": 28,
+     "failures": []
+    },
+    "focus": {
+     "pass": true,
+     "checked": 29,
+     "failures": []
+    },
+    "phone": {
+     "pass": true,
+     "scrollWidth": 375,
+     "viewport": 375,
+     "failures": []
+    },
+    "motion": {
+     "pass": true,
+     "failures": []
+    }
+   }
+  }
+ ]
+}

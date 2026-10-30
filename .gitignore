@@ -1,0 +1,8 @@
+node_modules/
+out/
+**/.llm-cache/
+**/.snapshots/
+**/.candidate.html
+gallery/run*.log
+gallery/run.json
+docs/.frames/
