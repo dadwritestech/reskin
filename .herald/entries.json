@@ -1,0 +1,12 @@
+{
+ "repo": "reskin",
+ "link": "https://github.com/dadwritestech/reskin",
+ "releases": true,
+ "entries": [
+  {
+   "glob": "gallery/pairs/*",
+   "kind": "pair",
+   "text": "New reskin: {left} rebuilt in the style of {Right}. Same content, new design system, five lint gates passed."
+  }
+ ]
+}
