@@ -112,3 +112,8 @@ and nothing here is affiliated with or endorsed by any company named or any site
 - The gate set follows hallmark's accessibility floor (contrast, focus, reduced motion, phone layout).
 
 MIT
+
+## License
+
+- **Code:** [Apache-2.0](LICENSE).
+- **Gallery:** the restyled pages are third-party content shown to demonstrate the tool. See [NOTICE-GALLERY.md](NOTICE-GALLERY.md).
